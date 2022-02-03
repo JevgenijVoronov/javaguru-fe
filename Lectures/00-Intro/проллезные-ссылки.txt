@@ -1,0 +1,9 @@
+Мир Frontend https://roadmap.sh/frontend
+
+Справочники
+https://www.w3schools.com/
+https://developer.mozilla.org/
+
+HTML 		- https://books.goalkicker.com/HTML5Book/
+JavaScript 	- https://books.goalkicker.com/JavaScriptBook/
+CSS     	- https://books.goalkicker.com/CSSBook/
