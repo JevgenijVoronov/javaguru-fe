@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body, html{
+overflow-x: hidden;/*hidden Отображается только область внутри элемента, остальное будет скрыто. http://htmlbook.ru/css/overflow-x*/
+color: white;
+}
+body{
+    background-color: #2B2B2B;
+}
+.hallo{
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+nav{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.menu_top{
+    padding: 0;
+    margin: 0;
+    position: relative; /*Положение элемента http://htmlbook.ru/css/position*/
+    height: 50px;  
+}
+
+.menu_top li{
+    color: #747474;
+    text-transform: uppercase;
+    display: inline-block;  
+    letter-spacing: 2.5px;/*размер между символами*/
+    margin: 20px 25px;
+}
+
+
+.menu_top li:hover{
+    color: brown;
+}
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #1f1f1f url(../img/web-development.jpg) no-repeat top center;
+    background-size: cover !important; /* cover Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока.*/
+    text-align: center;
+}
+h3{
+    padding-top: 30px;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 70%;
+    color: #747474;
+}
+p{
+    font-size: 20px;
+    color: #747474;
+}
+hr{
+    color: #747474;
+    width: 65%;
+    margin: 20px auto 20px auto;
+}
+.social{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 30px;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 50px auto;
+}
+.columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+ }
+ .profile-pic {
+    position: relative; /*http://htmlbook.ru/css/position*/
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 40px;
+ }
+ .main-col{
+     width: 75%;
+     line-height: 1.5;
+     margin-left: 30px;
+ }
+ main{
+     display: block;
+     overflow: hidden; /*!!!!!!!!!!*/
+     margin: 30px auto;
+ }
+ footer{
+    color: #636363;
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 30px;
+ }
+ footer li{
+     display: inline;
+     text-decoration: none;
+ }
