@@ -26,12 +26,12 @@ footer {
     background-color:rgb(141, 140, 146);
 }
 
- ul.params {
+ul.params {
     list-style-type: none;
     display: inline-block;
- }
+}
 
- header {
+header {
      background-color :rgb(255, 255, 255);
      padding: 20px 0;
      text-align: center;
