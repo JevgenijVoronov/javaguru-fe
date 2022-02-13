@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registarion Form</title>
+</head>
+
+<body>
+    <h2>Форма Регистрации</h2>
+    <!-- FORM -->
+    <form action="" method="get">
+        <!-- Логин и пароль -->
+        <fieldset>
+            <label for="login">Введите свой логин:</label>
+            <input type="text" name="login" id="login" required>
+
+            <label for="password">Введите пароль:</label>
+            <input type="text" name="password" id="password" required>
+        </fieldset>
+        <br>
+
+        <!-- Дополнительная информация о себе -->
+        <fieldset>
+            <legend><mark>Дополнительная информация о себе:</mark></legend>
+            <h4>Укажите пол</h4>
+            <label><input type="radio" name="sex" value="man">Мужской</label>
+            <br>
+            <label><input type="radio" name="sex" value="female">Женский</label>
+
+            <h4>Укажите дату рождения</h4>
+            <label for="date">День рождения:</label>
+            <input type="date" name="date">
+
+            <h4>Место проживания</h4>
+            <label for="city">Ваш город</label>
+            <input type="text" name="city" id="city">
+        </fieldset>
+        <br>
+
+        <!-- Ваше хобби -->
+        <fieldset>
+            <legend><mark>Ваше хобби:</mark></legend>
+            <!-- HOBBIES Checkboxes -->
+            <table>
+                <caption>Можно выбрать любое количество увлечений</caption>
+                <tr>
+                    <td>
+                        <label for="hob1"><input type="checkbox" id="hob1">Путешествия</label>
+                    </td>
+                    <td>
+                        <label for="hob2"><input type="checkbox" id="hob2">Программировать</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hob3"><input type="checkbox" id="hob3">Рисовать</label>
+                    </td>
+                    <td>
+                        <label for="hob4"><input type="checkbox" id="hob4">Играть на музыкальных инструментах</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+
+        <!-- Своё поле -->
+        <fieldset>
+            <legend><mark>Своё поле</mark></legend>
+            <h4>Добавить любое поле на выбор не из представленных</h4>
+            <hr>
+
+            <!-- Datalist -->
+            <label for="browser">Ваш браузер:</label>
+            <input list="browsers" id="browser" name="browser">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Microsoft Edge">
+            </datalist>
+        </fieldset>
+        <br>
+
+        <!-- Кнопка ОТПРАВИТЬ -->
+        <button type="submit">Отправить</button>
+    </form>
+    <!-- FORM END -->
+</body>
+
+</html>
