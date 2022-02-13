@@ -1,23 +1,52 @@
-Форма Регистрации
-Введите свой логин:
-Введите пароль:
-
-Дополнительная информация о себе:
-Укажите пол
-Мужской
-Женский
-
-Укажите дату рождения
-День Рождения:
-
-Место проживания
-Ваш город
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Форма Регистрации</h1>
+<table>
+    <tr>
+        <td>
+        Введите свой логин:<input type="text">
+        Введите пароль:<input type="password">
+        </td>
+    </tr>
+</table>
+<br>
+<br>
+Дополнительная информация о себе:<br>
+Укажите пол<br>
+<form>
+<input type="radio" id="male" name="gender" value="Мужской">
+<label for="male">Мужской</label><br>
+<input type="radio" id="female" name="gender" value="Женский">
+<label for="female">Женский</label><br>
+</form>
+Укажите дату рождения<br>
+День Рождения:<input type="date">
+<br>
+Место проживания<br>
+Ваш город<input type="text">
+<br>
 Ваши Хобби:
-Можно выбирать любое количество увлечений
-Путешествия
-Программировать
-Рисовать
-Играть на музыкальных инструментах
+Можно выбирать любое количество увлечений<br>
+<form>
+    <input type="checkbox" name="travel" value="Путешествия">Путешествия<br>
+    <input type="checkbox" name="coding" value="Программировать">Программировать<br>
+    <input type="checkbox" name="paint" value="Рисовать">Рисовать<br>
+    <input type="checkbox" name="music" value="Музыка">Играть на музыкальных инструментах<br>
+</form>
 
+<br>
 Своё поле
+</body>
+</html>
