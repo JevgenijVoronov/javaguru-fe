@@ -8,46 +8,45 @@
 </head>
 <body>
     <h1>Форма Регистрации</h1>
-    <form action="#" method="get">
+    <form name="registration" action="" method="post">
 <fieldset>
-    Введите свой логин: 
-    <input type="text">
-    <label for="password">Введите пароль: </label>
-    <input type="password" id="password" required>
+    Введите свой логин:
+    <input type="text" name="name" required="required"> 
+    Введите пароль:
+    <input type="password" name="password" required="required">
 </fieldset>
 <br>
 <fieldset>
-<legend>Дополнительная информация о себе:</legend>
-Укажите пол<br>
-<form>
-<input type="radio" id="male" name="gender" value="Мужской">
-<label for="male">Мужской</label><br>
-<input type="radio" id="female" name="gender" value="Женский">
-<label for="female">Женский</label>
-</form>
-<br>
-Укажите дату рождения<br>
-День Рождения:<input type="date">
-<br>
-Место проживания<br>
-Ваш город<input type="text">
+    <legend>Дополнительная информация о себе:</legend>
+    Укажите пол<br>
+    <input type="radio" id="male" name="gender" value="Мужской">
+    <label for="male">Мужской</label><br>
+    <input type="radio" id="female" name="gender" value="Женский">
+    <label for="female">Женский</label><br>
+    Укажите дату рождения<br>
+    День Рождения:<input type="date"><br>
+    Место проживания<br>
+    Ваш город<input type="text">
 </fieldset>
 <fieldset>
-<legend>Ваши Хобби:</legend>
-Можно выбирать любое количество увлечений<br>
-<form>
-    <input type="checkbox" name="travel" value="Путешествия">Путешествия<br>
-    <input type="checkbox" name="coding" value="Программировать">Программировать<br>
-    <input type="checkbox" name="paint" value="Рисовать">Рисовать<br>
-    <input type="checkbox" name="music" value="Музыка">Играть на музыкальных инструментах<br>
-</form>
+    <legend>Ваши Хобби:</legend>
+    Можно выбирать любое количество увлечений<br>
+    <table>
+    <tr>
+        <td><input type="checkbox" name="travel" value="Путешествия">Путешествия</td>
+        <td><input type="checkbox" name="coding" value="Программировать">Программировать</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="paint" value="Рисовать">Рисовать</td>
+        <td><input type="checkbox" name="music" value="Музыка">Играть на музыкальных инструментах</td>
+    </tr>
+    </table>
 </fieldset>
-<br>
-Адресс электронной почты:
-<br>
-<input type="text">
-<br>
-<input type="submit" value="Отправить">
+<fieldset>
+    <legend>Адресс электронной почты:</legend><br>
+    <input type="email" name="email" required="required"><br><br>
+    <input type="submit" name="submit_btn" value="Отправить">
+</fieldset>
 </form>
 </body>
 </html>
