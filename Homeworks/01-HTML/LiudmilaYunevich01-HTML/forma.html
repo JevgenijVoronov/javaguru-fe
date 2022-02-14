@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма Регистрации</title>
+</head>
+<body>
+    <h1>Форма Регистрации</h1>
+    <form action="/action_page.php" method="get">  
+<fieldset> 
+  Введите свой логин: <input type="text">
+  Введите пароль: <input type="password">
+</fieldset>
+<br>
+<fieldset> 
+<legend>Дополнительная информация о себе:</legend>
+<b>Укажите пол</b> <br>
+<form>
+<input type="radio" id="male" name="gender" value="Мужской">
+<label for="male">Мужской</label><br>
+<input type="radio" id="female" name="gender" value="Женский">
+<label for="female">Женский</label>
+</form>
+<br>
+<b>Укажите дату рождения</b> <br>
+День Рождения:<input type="date">
+<br>
+<b>Место проживания</b> <br>
+Ваш город<input type="text">
+</fieldset>
+<br>
+<fieldset>
+<legend>Ваши хобби:</legend>
+Можно выбирать любое количество увлечений<br>
+    <form>
+        <input type="checkbox" name="travel" value="Путешествия">Путешествия
+        <input type="checkbox" name="coding" value="Программировать">Программировать<br>
+        <input type="checkbox" name="paint" value="Рисовать">Рисовать
+        <input type="checkbox" name="music" value="Музыка">Играть на музыкальных инструментах<br>
+    </form>
+</fieldset> <br>
+    Введите ваш еmail адрес: 
+    <input type="text"> <br><br>
+    <input type="submit" value="Отправить"> 
+    </form>
+</body>
+</html>
