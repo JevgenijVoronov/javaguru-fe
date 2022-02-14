@@ -1,68 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta mane="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta mane="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Форма</title>
-</head>
-<body>
-    <div style="background-color: antiquewhite; border: 1px; border-radius: 3px; width: 600px; margin: 50px auto;" > 
-<h2>Форма рeгистрации</h2>
-<form action="#" method="get">
-<fieldset>
-    <legend>Контактная информация</legend>
-    <label for="name">Имя </label>
-    <input type="name" placeholder="Ваше имя" id="name" autofocus style="margin-left:21px;">
+  </head>
+  <body>
+    <div
+      style="
+        background-color: antiquewhite;
+        border: 1px;
+        border-radius: 3px;
+        width: 600px;
+        margin: 50px auto;
+      "
+    >
+      <h2>Форма рeгистрации</h2>
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Контактная информация</legend>
+          <label for="name">Имя </label>
+          <input
+            type="name"
+            placeholder="Ваше имя"
+            name="name"
+            autofocus
+            style="margin-left: 21px"
+          />
 
-<label for="email">Email<span>*</span></label>
-<input type="email" placeholder="Ваш email" id="email" required style="margin-left:11px;"><br>
+          <label for="email">Email<span>*</span></label>
+          <input
+            type="email"
+            placeholder="Ваш email"
+            name="email"
+            required
+            style="margin-left: 11px"
+          /><br />
 
-<hr>
-<label for="login">Логин<span>*</span></label>
-<input type="login" id="login" required>
+          <hr />
+          <label for="login">Логин<span>*</span></label>
+          <input type="login" name="login" required />
 
-<label for="password">Пароль<span>*</span></label>
-<input type="password" id="password" required>
-</fieldset>
-<fieldset>
-    <legend>Дополнительная информация</legend>
-    <h4>Укажите ваш пол</h4>>
-    <label><input type="radio" name="sex" value="man">Мужской</label>
-    <label><input type="radio" name="sex" value="female">Женский</label>
-    <h4>Укажите ваш год рождения</h4>
-    <input type="date" name="date">
-    <h4>Ваш город проживания</h4>
-    <select name="city" id="city">
-        <option value="">Выберите</option>
-        <option value="Riga">Riga</option>
-        <option value="ogre">Ogre</option>
-        <option value="Livani">Livani</option>
-    </select>
-
-</fieldset>
-<fieldset>
-    <legend>Увлечения</legend>
-    <label for="hobbi1"><input type="checkbox" id="hobbi1">Хобби 1</label>
-    <label for="hobbi2"><input type="checkbox" id="hobbi2">Хобби 2</label>
-    <label for="hobbi3"><input type="checkbox" id="hobbi3">Хобби 3</label>
-    <label for="hobbi4"><input type="checkbox" id="hobbi4">Хобби 4</label>
-    <label for="hobbi5"><input type="checkbox" id="hobbi5">Хобби 5</label>
-    <label for="hobbi6"><input type="checkbox" id="hobbi6">Хобби 6</label>
-    <h4>Ваш любимы цвет</h4>
-    <label for="mycolor">Цвет</label>
-    <input type="color" id="mycolor">
-</fieldset>
-<fieldset>
-    <legend>Дополнение</legend>
-    <textarea name="text" id="text" cols="30" rows="5" placeholder="Ваш текст"></textarea>
-    <p>
-        <label for="file">Приложить файл</label></p>
-        <input type="file" id="file">
-    
-</fieldset>
-<div style="text-align: center; padding: 10px;"><input type="submit" value="Отправить"></div>
-</form>
+          <label for="password">Пароль<span>*</span></label>
+          <input type="password" name="password" required />
+        </fieldset>
+        <fieldset>
+          <legend>Дополнительная информация</legend>
+          <h4>Укажите ваш пол</h4>
+          >
+          <label><input type="radio" name="sex" value="man" />Мужской</label>
+          <label><input type="radio" name="sex" value="female" />Женский</label>
+          <h4>Укажите ваш год рождения</h4>
+          <input type="date" name="date" />
+          <h4>Ваш город проживания</h4>
+          <select name="city" id="city">
+            <option value="">Выберите</option>
+            <option value="Riga">Riga</option>
+            <option value="ogre">Ogre</option>
+            <option value="Livani">Livani</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Увлечения</legend>
+          <label for="hobbi1"
+            ><input type="checkbox" name="hobbi1" />Хобби 1</label
+          >
+          <label for="hobbi2"
+            ><input type="checkbox" name="hobbi2" />Хобби 2</label
+          >
+          <label for="hobbi3"
+            ><input type="checkbox" name="hobbi3" />Хобби 3</label
+          >
+          <label for="hobbi4"
+            ><input type="checkbox" name="hobbi4" />Хобби 4</label
+          >
+          <label for="hobbi5"
+            ><input type="checkbox" name="hobbi5" />Хобби 5</label
+          >
+          <label for="hobbi6"
+            ><input type="checkbox" name="hobbi6" />Хобби 6</label
+          >
+          <h4>Ваш любимы цвет</h4>
+          <label for="mycolor">Цвет</label>
+          <input type="color" name="mycolor" />
+        </fieldset>
+        <fieldset>
+          <legend>Дополнение</legend>
+          <textarea
+            name="text"
+            id="text"
+            cols="30"
+            rows="5"
+            placeholder="Ваш текст"
+          ></textarea>
+          <p>
+            <label for="file">Приложить файл</label>
+          </p>
+          <input type="file" name="file" />
+        </fieldset>
+        <div style="text-align: center; padding: 10px">
+          <input type="submit" value="Отправить" />
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
