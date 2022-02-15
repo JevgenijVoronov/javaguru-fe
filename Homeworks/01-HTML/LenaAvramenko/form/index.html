@@ -26,17 +26,29 @@
         <fieldset>
             <legend><mark>Дополнительная информация о себе:</mark></legend>
             <h4>Укажите пол</h4>
-            <label><input type="radio" name="sex" value="man">Мужской</label>
+            <input type="radio" id="male" name="male" value="male">
+            <label for="male">Мужской</label>
             <br>
-            <label><input type="radio" name="sex" value="female">Женский</label>
+            <input type="radio" id="female" name="female" value="female">
+            <label for="female">Женский</label>
 
             <h4>Укажите дату рождения</h4>
             <label for="date">День рождения:</label>
             <input type="date" name="date">
 
+            <!-- Место проживания select -->
             <h4>Место проживания</h4>
             <label for="city">Ваш город</label>
-            <input type="text" name="city" id="city">
+            <select name="city" id="city">
+                <optgroup label="Латвия">
+                    <option value="Рига">Рига</option>
+                    <option value="Юрмала">Юрмала</option>
+                </optgroup>
+                <optgroup label="Россия">
+                    <option value="Москва">Москва</option>
+                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                </optgroup>
+            </select>
         </fieldset>
         <br>
 
@@ -48,18 +60,22 @@
                 <caption>Можно выбрать любое количество увлечений</caption>
                 <tr>
                     <td>
-                        <label for="hob1"><input type="checkbox" id="hob1">Путешествия</label>
+                        <input type="checkbox" id="hob1">
+                        <label for="hob1">Путешествия</label>
                     </td>
                     <td>
-                        <label for="hob2"><input type="checkbox" id="hob2">Программировать</label>
+                        <input type="checkbox" id="hob2">
+                        <label for="hob2">Программировать</label>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="hob3"><input type="checkbox" id="hob3">Рисовать</label>
+                        <input type="checkbox" id="hob3">
+                        <label for="hob3">Рисовать</label>
                     </td>
                     <td>
-                        <label for="hob4"><input type="checkbox" id="hob4">Играть на музыкальных инструментах</label>
+                        <input type="checkbox" id="hob4">
+                        <label for="hob4">Играть на музыкальных инструментах</label>
                     </td>
                 </tr>
             </table>
