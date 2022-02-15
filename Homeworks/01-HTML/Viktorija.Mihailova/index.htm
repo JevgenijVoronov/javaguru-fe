@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form registration</title>
+    </head>
+         <body>
+             
+ <form name="test"></form>
+<h1>Form registration</h1>
+  <fieldset>
+    <legend>Your personal data</legend>
+    <div>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required>
+  </div>
+         <br>
+         <div>
+    <label for="name">Surname</label>
+    <input type="text" name="Surname" id="Surname" required>
+  </label>
+</div>
+  <br>
+  <label for="name"><b>Your gender:</b></label><br>
+    <input type="radio" name="sex" value="male">male
+    <div class="radio-control male"></div>
+ 
+    <input type="radio" name="sex" value="female">female
+    <div class="radio-control female"></div>
+  </label>
+  <label for="date"><b>Date of birth</b></label>
+  <input type="date" id="date" name="date">
+  <div>
+      <label for="city-select"><b>Choose your city:</b></label>
+      <input list="city" id="city-select" >
+      <datalist id="city">
+        <option value="Riga">
+        <option value="Ventspils">
+        <option value="Daugavpils">
+        <option value="Krastlava">
+    </datalist>
+    </div>
+ </fieldset>
+
+ <fieldset>
+     <legend>About you</legend>
+     <h4>Choose your interests:</h4>
+     <div>
+        <input type="checkbox" id="boardgames" name="interests" value="boardgames">
+        <label for="boardgames">boardgames</label>
+      
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">coding</label>
+      </div>
+      <div>
+        <input type="checkbox" id="languages" name="interests" value="languages">
+        <label for="languages">languages</label>
+      
+        <input type="checkbox" id="politics" name="interests" value="politics">
+        <label for="politics">politics</label>
+      </div>
+      <div>
+        <input type="checkbox" id="photograph" name="interests" value="photograph">
+        <label for="photograph">photograph</label>
+      </div>
+      <label for="text"><b>Do you attend any events?</b></label>
+      <br>
+      <input type="radio" name="events" value="yes">yes
+      <div class="radio-control yes"></div>
+      
+      <input type="radio" name="events" value="no">no
+      <div class="radio-control no"></div>
+      
+      <input type="radio" name="events" value="sometimes">sometimes
+      <div class="radio-control sometimes"></div>
+      <div>
+      <label for="text"><b>How many members in your family?</b></label>
+     <input type="number" id="number" name="number">
+    </div>
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+      <label for="output"><b>Choose your productivity:</b></label>
+      <input type="range" id="b" name="b" value="100" /> +
+      <input type="number" id="a" name="a" value="0" /> =
+      <output name="result" for="a b">100</output>
+    </form>
+
+
+      
+ </fieldset>
+ <fieldset>
+   <legend>Contacts</legend>
+   <label for="text"><b>Your email:</b></label>
+   <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+   <label for="password"><b>Your password:</b></label>
+   <input type="password" id="password" name="password" placeholder="Enter your password">
+   
+   <div>
+     <label for="text"><b>Phone number:</b></label>
+     <input type="tel" id="tel" name="login" placeholder="Enter your phone number">
+   </div>
+ </fieldset>
+ <fieldset>
+   <legend>Questions</legend>
+   <label for="text"><b>Do you have any questions?</b></label>
+   <textarea id="text" name="text" placeholder="Enter your text"></textarea>
+ </fieldset>
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+
+         </body>
+    
+</html>
