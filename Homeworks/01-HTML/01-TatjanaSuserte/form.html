@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration form</h2> 
+    <form action="" method="get">
+        <fieldset style="width:50%">
+            <legend><mark>Enter Login&Password</mark></legend>
+            <label for="login">Enter login:</label>
+            <input type="text" name="login" id="login" required>
+
+            <label for="pwd">Enter password:</label>
+            <input type="text" name="pwd" id="pwd" required>
+        </fieldset>
+        <br>
+        <fieldset style="width:50%">
+            <legend><mark>Additional info about you:</mark></legend>
+            <h4><label for="gender">Choose you gender:</label></h4>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <h4><label for="birth">Choose you Birthday:</label></h4>
+            <input type="date" id="birth" name="birth" required>
+            
+            <h4><label for="city">Enter or choose your city:</label></h4>
+            <input list="my-city" id="city" name="city">
+            <datalist id="my-city">
+                <option value="Rīga">
+                <option value="Daugavpils">
+                <option value="Cēsis">
+            </datalist>
+        </fieldset>
+        <br>
+        <fieldset style="width:50%">
+            <legend><mark>Hobbies</mark></legend>
+                <table>
+                    <caption><b>Choose your's Hobbies</b></Choose></caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hob1" name="hob1" value="gaming"> 
+                            	<label for="hob1">Gaming</label>
+                            </td>
+                            <td>
+                             	<input type="checkbox" id="hob2" name="hob1" value="programming"> 
+                             	<label for="hob2">Programming</label>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hob3" name="hob4" value="sporting"> 
+                            	<label for="hob3">Sporting</label>
+                            </td>
+                            <td>
+                             	<input type="checkbox" id="hob4" name="hob1" value="fishing"> 
+                             	<label for="hob4">Fishing</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </fieldset>
+        <br>
+        <fieldset style="width:50%">
+            <legend><mark>Profile photo upload:</mark></legend>
+            <input type="file" id="myphoto" name="myphoto">
+        </fieldset>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
