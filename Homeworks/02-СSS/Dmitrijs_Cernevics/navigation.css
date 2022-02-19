@@ -1,0 +1,17 @@
+.menu {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.menu > li {
+    background-color: rgb(150, 231, 20);
+    margin: 10px;
+    width: 200px;
+    height: 75px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
