@@ -1,0 +1,147 @@
+.wrap {
+  font-family: "Roboto", sans-serif;
+  width: 1000px;
+  margin: 50px auto;
+  border: solid 1px;
+}
+form {
+  margin: 20px;
+}
+button {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+.default {
+  border: 1px solid #747474;
+}
+
+/**************** Normal size **************/
+
+.button-normal {
+  font-size: 15px;
+  padding: 10px;
+}
+.button-normal__primary {
+  background-color: var(--primary-color);
+}
+.button-normal__danger {
+  background-color: var(--danger-color);
+}
+.button-normal__warning {
+  background-color: var(--warning-color);
+}
+.button-normal__info {
+  background-color: var(--info-color);
+}
+.button-normal__default {
+  background-color: var(--default-color);
+  color: var(--color-black);
+  border: 1px solid #747474;
+  padding: 9px;
+}
+.button-normal__success {
+  background-color: var(--success-color);
+}
+.button-normal__link {
+  background-color: var(--link-color);
+  color: var(--color-link);
+}
+
+/***************** Large size ****************/
+
+.button-large {
+  font-size: 18px;
+  padding: 15px;
+}
+.button-large__primary {
+  background-color: var(--primary-color);
+}
+.button-large__danger {
+  background-color: var(--danger-color);
+}
+.button-large__warning {
+  background-color: var(--warning-color);
+}
+.button-large__info {
+  background-color: var(--info-color);
+}
+.button-large__default {
+  background-color: var(--default-color);
+  color: var(--color-black);
+  border: 1px solid #747474;
+  padding: 14px;
+}
+.button-large__success {
+  background-color: var(--success-color);
+}
+.button-large__link {
+  background-color: var(--link-color);
+  color: var(--color-link);
+}
+/*************** Small size **************/
+
+.button-small {
+  font-size: 14px;
+  padding: 8px;
+}
+.button-small__primary {
+  background-color: var(--primary-color);
+}
+.button-small__danger {
+  background-color: var(--danger-color);
+}
+.button-small__warning {
+  background-color: var(--warning-color);
+}
+.button-small__info {
+  background-color: var(--info-color);
+}
+.button-small__default {
+  background-color: var(--default-color);
+  color: var(--color-black);
+  border: 1px solid #747474;
+  padding: 7px;
+}
+.button-small__success {
+  background-color: var(--success-color);
+}
+.button-small__link {
+  background-color: var(--link-color);
+  color: var(--color-link);
+}
+
+/************** Extra Small size **************/
+
+.button-ExtraSmall {
+  font-size: 13px;
+  padding: 6px;
+}
+.button-ExtraSmall__primary {
+  background-color: var(--primary-color);
+}
+.button-ExtraSmall__danger {
+  background-color: var(--danger-color);
+}
+.button-ExtraSmall__warning {
+  background-color: var(--warning-color);
+}
+.button-ExtraSmall__info {
+  background-color: var(--info-color);
+}
+.button-ExtraSmall__default {
+  background-color: var(--default-color);
+  color: var(--color-black);
+  border: 1px solid #747474;
+  padding: 5px;
+}
+.button-ExtraSmall__success {
+  background-color: var(--success-color);
+}
+.button-ExtraSmall__link {
+  background-color: var(--link-color);
+  color: var(--color-link);
+}
