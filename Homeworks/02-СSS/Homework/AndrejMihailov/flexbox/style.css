@@ -21,14 +21,14 @@
   font-size: 30px;
 }
 
-div .flex-container__item1 {
+div > .flex-container__item1 {
   height: 120px;
 }
 
-div .flex-container__item2 {
+div > .flex-container__item2 {
   height: 50px;
 }
 
-div .flex-container__item3 {
+div > .flex-container__item3 {
   height: 280px;
 }
