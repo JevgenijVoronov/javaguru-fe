@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Registration Form</title>
+    </head>
 <body>
     <h1>Registration Form</h1>
-    <form name="registration" action="" method="post">
+        <form name="registration" action="" method="post">
 <fieldset>
     Login:
     <input type="text" name="name" required="required"> 
     Password:
     <input type="password" name="password" required="required">
-
 </fieldset>
 <br>
-<fieldset>
-    <legend><strong>About you:</strong></legend>
-    <input type="radio" id="male" name="gender" value="Male">
-    <label for="male">Male</label><br>
-    <input type="radio" id="female" name="gender" value="Female">
-    <label for="female">Female</label><br>
-    Date of birth:<br>
-    Date:<input type="date"><br>
-    Where do you live<br>
-    City<input type="text">
-</fieldset>
-<fieldset>
-        <label for="Language">Choose your language</label>
-        <select name="Language" id="Language">
-          <option value="English">English</option>
-          <option value="Latvian">Latvian</option>
-          <option value="Russian">Russian</option>
+    <fieldset>
+        <legend><strong>About you:</strong></legend>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        Date of birth:<br>
+        Date:<input type="date"><br>
+        Where do you live<br>
+        City<input type="text">
+    </fieldset>
+        <fieldset>
+            <label for="Language">Choose your language</label>
+            <select name="Language" id="Language">
+            <option value="English">English</option>
+            <option value="Latvian">Latvian</option>
+            <option value="Russian">Russian</option>
         </select>
         <br><br>
     </fieldset>
-<fieldset>
-   <legend><strong>Your hobby:</strong></legend>
-    You can choose more than one<br>
-    <table>
-    <tr>
-        <td><input type="checkbox" name="travel" value="Traveling">Traveling</td>
-        <td><input type="checkbox" name="coding" value="Coding">Coding</td>
-    </tr>
-    <tr>
-        <td><input type="checkbox" name="painting" value="Painting">Painting</td>
-        <td><input type="checkbox" name="music" value="Music">Play music</td>
-    </tr>
-    </table>
-</fieldset>
+        <fieldset>
+            <legend><strong>Your hobby:</strong></legend>
+            You can choose more than one<br>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="travel" value="Traveling">Traveling</td>
+                    <td><input type="checkbox" name="coding" value="Coding">Coding</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="painting" value="Painting">Painting</td>
+                    <td><input type="checkbox" name="music" value="Music">Play music</td>
+                </tr>
+                    </table>
+        </fieldset>
 <fieldset>
     <legend><strong>Email adress</strong></legend><br>
     <input type="email" name="email" required="required"><br><br>
