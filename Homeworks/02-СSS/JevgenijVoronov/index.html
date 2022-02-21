@@ -10,40 +10,37 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#work-experience">Work experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#languages">Languages</a></li>
-                <li><a href="#contactme">Contact me</a></li>
+            <ul class="header">
+                <li class="header__item"><a href="#work-experience">Work experience</a></li>
+                <li class="header__item"><a href="#education">Education</a></li>
+                <li class="header__item"><a href="#skills">Skills</a></li>
+                <li class="header__item"><a href="#faq">FAQ</a></li>
+                <li class="header__item"><a href="#languages">Languages</a></li>
+                <li class="header__item"><a href="#contactme">Contact me</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- ABOUT ME -->
-        <section id="aboutme">
-            <img src="../../../Homeworks/00-Intro/JevgenijVoronov/profileImg.png" alt="profileImg" width="100px" height="100px">
+        <section id="aboutme" class="main">
             <address>
-                <h1>Jevgenijs Voronovs | Frontend developer</h1>
-                <a href="tel:+37128210311">+371 28210311</a><br>
-                <a href="mailto:jevgenijs.voronovs@gmail.com">jevgenijs.voronovs@gmail.com</a><br>
-                <a href="https://linkedin.com/in/jevgenijsvoronovs/" target="_blank">LinkedIn</a><br>
-                <a href="#contactme">contact me</a>
+                <p class="main__preTitle">FRONTEND DEVELOPER</p>
+                <h1 class="main__title">Jevgenijs Voronovs</h1>
+                <a class="main__contactInfo" href="https://linkedin.com/in/jevgenijsvoronovs/" target="_blank">LinkedIn</a><br>
+                <a class="main__contactInfo" href="mailto:jevgenijs.voronovs@gmail.com">jevgenijs.voronovs@gmail.com</a><br>
+                <a class="main__contactBtn" href="#contactme">CONTACT ME</a>
             </address>
         </section>
         <!-- /ABOUT ME -->
-
-        <hr>
         <!-- WORK EXPERIENCE -->
-        <section id="work-experience">
+        <section id="work-experience" class="workExperience">
             <h2>Work experience</h2>
 
-            <h3>Intexsys, Riga – Front-end developer</h3>
-            <em>August 2016 – present</em>
+            <h3>Intexsys, Riga | Front-end developer</h3>
+            <h4>August 2016 – present</h4>
 
-            <ul>
+            <ul class="workExperience__item">
                 <li>Participating in code and technical reviews;</li>
                 <li>Performing quality assurance and troubleshooting code rendering across multiple desktop and mobile devices;</li>
                 <li>Launching A/B tests using Google Optimize software;</li>
@@ -54,32 +51,21 @@
                 <li>Participated in the initial wave of developers learning and implementing the React.JS library and rewriting legacy code to React framework.</li>
             </ul>
 
-            <h3>Aligorex IT Services, Riga – Graphic web designer, Frontend developer</h3>
-            <em>February 2014 – August 2016</em>
+            <h3>Aligorex IT Services, Riga | Graphic web designer, Frontend developer</h3>
+            <h4>February 2014 – August 2016</h4>
 
-            <ul>
+            <ul class="workExperience__item">
                 <li>Designed web page mockups using Adobe Photoshop software</li>
                 <li>Creating responsive landing pages using HTML, CSS and Javascript technologies</li>
                 <li>Maintained and updated website functionality in collaboration with backend developers</li>
             </ul>
         </section>
         <!-- /WORK EXPERIENCE -->
-
-        <hr>
-        <!-- EDUCATION -->
-        <section id="education">
-            <h2>Education</h2>
-            <p>Latvia University of Life Sciences and Technologies, Jelgava – Bachelor's degree <em>2013 – 2016 (unfinished)</em></p>
-            <p> Jelgavas 5. vidusskola, Jelgava <em>2010 – 2013</em></p>
-        </section>
-        <!-- EDUCATION -->
-
-        <hr>
         <!-- SKILLS -->
-        <section id="skills">
+        <section id="skills" class="skills">
             <h2>Skills</h2>
-            <b>In the everyday work I'm using the following skills and technologies:</b>
-            <ul>
+            <h4>In the everyday work I'm using the following skills and technologies</h4>
+            <ul class="skills__item">
                 <li>HTML5</li>
                 <li>CSS3 (LESS)</li>
                 <li>JavaScript</li>
@@ -96,8 +82,8 @@
                 <li>Google Optimize</li>
             </ul>
 
-            <b>I’m also interested in following technologies, which i’m using for my side projects:</b>
-            <ul>
+            <h4>I’m also interested in following technologies, which i’m using for my side projects</h4>
+            <ul class="skills__item">
                 <li>Next.JS</li>
                 <li>Vue.JS</li>
                 <li>Gatsby</li>
@@ -105,10 +91,15 @@
             </ul>
         </section>
         <!-- SKIllS -->
-
-        <hr>
+        <!-- EDUCATION -->
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <p>Latvia University of Life Sciences and Technologies, Jelgava – Bachelor's degree <em>2013 – 2016 (unfinished)</em></p>
+            <p> Jelgavas 5. vidusskola, Jelgava <em>2010 – 2013</em></p>
+        </section>
+        <!-- EDUCATION -->
         <!-- FAQ -->
-        <section id="faq">
+        <section id="faq" class="faq">
             <h2>FAQ</h2>
             <details>
                 <summary>My hobbyies?</summary>
@@ -123,7 +114,7 @@
                 <br>
                 <iframe 
                     src="https://open.spotify.com/embed/playlist/16gXsmg48MdRTqCLNnx9Cu?utm_source=generator" 
-                    width="30%" 
+                    width="40%" 
                     height="380" 
                     frameBorder="0" 
                     allowfullscreen="" 
@@ -132,35 +123,47 @@
               </details>
         </section>
         <!-- LANGUAGES -->
-
-        <hr>
         <!-- LANGUAGES -->
-        <section id="languages">
+        <section id="languages" class="languages">
             <h2>Languages</h2>
-            <ul>
+            <ul class="languages__item">
                 <li>Russian (native)</li>    
                 <li>English (working Professional)</li>    
                 <li>Latvian (working Professional)</li>    
             </ul>
         </section>
         <!-- LANGUAGES -->
-
-        <hr>
         <!-- CONTACT FORM -->
-        <section id="contactme">
-            <h2>Contact me </h2>
+        <section id="contactme" class="contactMe">
+            <h2>Contact me</h2>
 
             <form action="action_page.php">
-                <input type="text" id="firstname" name="firstname" placeholder="Your name.." style="width: 200px;">
+                <input 
+                    type="text" 
+                    id="firstname" 
+                    name="firstname" 
+                    placeholder="Your name.." 
+                    class="contactMe__input"
+                >
                 <br><br>
 
-                <input type="text" id="company" name="lastname" placeholder="Company name.." style="width: 200px;">
+                <input 
+                    type="text" 
+                    id="company" 
+                    name="lastname" 
+                    placeholder="Company name.." 
+                    class="contactMe__input"
+                >
                 <br><br>
             
-                <textarea id="subject" name="subject" placeholder="Write something.." style="width: 200px; height:100px"></textarea>
+                <textarea 
+                    id="subject" 
+                    name="subject" 
+                    placeholder="Write something.." 
+                    class="contactMe__text-area"></textarea>
                 <br><br>
 
-                <input type="submit" value="Submit">            
+                <input type="submit" value="Submit" class="contactMe__submit-btn">            
               </form>
         </section>
         <!-- CONTACT FORM -->
