@@ -1,0 +1,10 @@
+@import url('C:\Dev\javaguru-fe\Homeworks\02-СSS\Dmitrijs_Cernevics\Portfolio\Fonts');
+
+html {
+    font-family: 'Kufam', sans-serif;
+}
+body {
+    background-image: url(/Homeworks/02-СSS/Dmitrijs_Cernevics/Portfolio/Фон4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
