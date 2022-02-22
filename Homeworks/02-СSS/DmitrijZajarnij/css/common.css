@@ -1,3 +1,6 @@
-body {
-    background: url(../2.jpg);
+html {
+    background: url(../3.jpg) no-repeat;
+    background-color: #030102;
+    background-position: center;
+    background-size: 105rem;
 }
