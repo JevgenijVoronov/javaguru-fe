@@ -1,0 +1,9 @@
+#aboutFreddie {
+    display: inline;
+}
+
+#aboutFreddie img {
+    background-color: #d7b501;
+    padding: 3px;
+    margin: 3px;
+}
