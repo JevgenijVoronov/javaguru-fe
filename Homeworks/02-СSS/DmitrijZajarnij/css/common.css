@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
 html {
+    font-family: 'New Rocker', cursive;
     background: url(../3.jpg) no-repeat;
     background-color: #030102;
     background-position: center;
