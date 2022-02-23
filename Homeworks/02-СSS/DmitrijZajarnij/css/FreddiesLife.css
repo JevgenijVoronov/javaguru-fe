@@ -3,3 +3,9 @@ dt {
     font-family: var(--font-family);
     font-size: 25px;
 }
+
+dd {
+    color: #fffefe;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
