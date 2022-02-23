@@ -33,12 +33,24 @@
     padding: 12px 80px;
     font-size: large;
 }
-.default {
-    background-color: rgb(255, 255, 255);
-    color:black;
-    border-radius: 4px;
-    padding: 12px 80px;
-    font-size: large;
-}
 .link {
-    still thinking :D
+    border: none;
+    color:blue;
+}
+
+.extra-small {
+    font-size: x-small;
+    padding: 4px 30px;
+}
+.small {
+    font-size: small;
+    padding: 6px 40px;
+}
+.normal {
+    font-size: medium;
+    padding: 8px 60px;
+}
+.large {
+    font-size: large;
+    padding: 12px 80px;
+}
