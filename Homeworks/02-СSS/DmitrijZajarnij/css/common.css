@@ -39,8 +39,8 @@ h5 {
     text-align: var(--text-align);
 }
 
-dt {
+/* dt {
     color: var(--second-color);
     font-family: var(--font-family);
     font-size: 25px;
-}
+} */
