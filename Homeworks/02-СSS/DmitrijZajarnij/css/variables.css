@@ -3,3 +3,8 @@
     --text-align: center;
     --font-size: 60px;
 }
+
+:root {
+    --second-color: #ffff01;
+    --font-family: 'Dancing Script', cursive;
+}

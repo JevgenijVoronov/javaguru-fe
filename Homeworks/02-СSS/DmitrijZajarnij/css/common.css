@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 html {
     font-family: 'New Rocker', cursive;
@@ -36,4 +37,10 @@ h5 {
     color: var(--main-color);
     font-size: var(--font-size);
     text-align: var(--text-align);
+}
+
+dt {
+    color: var(--second-color);
+    font-family: var(--font-family);
+    font-size: 25px;
 }

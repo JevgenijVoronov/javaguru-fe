@@ -3,13 +3,15 @@
 }
 
 #aboutFreddie img {
-    background-color: #d7b501;
+    background-color: #ffff01;
     padding: 3px;
     margin: 3px;
 }
 
-/* .header1 {
+p {
+    color: white;
     text-align: center;
-    color: #b56cf7;
-    font-size: 60px;
-} */
+    line-height: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
