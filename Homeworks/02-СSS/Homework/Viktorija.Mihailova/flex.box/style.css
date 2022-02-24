@@ -1,0 +1,48 @@
+
+
+
+.container{
+    max-width: 600px;
+  margin: 0 auto;
+  
+ 
+}
+.flex-container{
+    display: flex;
+    min-height: 500px;
+    background-color: grey;
+    flex-flow: row nowrap;
+    flex-wrap: wrap;
+    flex-direction:unset;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+
+.flex-container > div{
+    background-color: lightgrey;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    font-size: 30px;
+}
+ 
+.flex-item.flex-item1{
+    height: 95px;
+}
+.flex-item.flex-item2{
+    height: 40px;
+}
+.flex-item.flex-item3{
+    height: 270px;
+   width: 65px;
+   align-content: flex-end;
+}
+.flex-item.flex-item3{
+    height: 270px;
+  
+  
+}
+
