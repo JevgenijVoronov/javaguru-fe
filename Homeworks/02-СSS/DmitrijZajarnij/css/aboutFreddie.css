@@ -1,0 +1,17 @@
+#aboutFreddie {
+    display: inline;
+}
+
+#aboutFreddie img {
+    background-color: #ffff01;
+    padding: 3px;
+    margin: 3px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}

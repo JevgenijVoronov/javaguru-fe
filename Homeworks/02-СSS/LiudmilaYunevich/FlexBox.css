@@ -1,0 +1,53 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.flex-container {
+    display: flex;
+    min-height: 500px;
+    background-color: gray;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+
+.flex-container > div {
+    background-color: lightgray;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.flex-container div:nth-child(1) {
+    align-self: center;
+    width: 85px;
+    height: 110px;
+
+}
+
+.flex-container div:nth-child(2) { 
+    align-self: center;
+    width: 90px;
+    height: 40px; 
+    
+}
+
+.flex-container div:nth-child(3) { 
+    align-self: center;
+    width: 75px;   
+    height: 320px;     
+    align-self: center;
+    
+}
+
+
+.flex-container div:nth-child(4) { 
+    align-self: center;
+
+}

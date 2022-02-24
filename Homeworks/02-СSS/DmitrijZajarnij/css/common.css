@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+html {
+    font-family: 'New Rocker', cursive;
+    background: url(../3.jpg) no-repeat;
+    background-color: #030102;
+    background-position: center;
+    background-size: 210rem;
+}
+
+h1 {
+    color: var(--main-color);
+    font-size: var(--font-size);
+    text-align: var(--text-align);
+}
+
+h2 {
+    color: var(--main-color);
+    font-size: var(--font-size);
+    text-align: var(--text-align);
+}
+
+h3 {
+    color: var(--main-color);
+    font-size: var(--font-size);
+    text-align: var(--text-align);
+}
+
+h4 {
+    color: var(--main-color);
+    font-size: var(--font-size);
+    text-align: var(--text-align);
+}
+
+h5 {
+    color: var(--main-color);
+    font-size: var(--font-size);
+    text-align: var(--text-align);
+}
+
+/* dt {
+    color: var(--second-color);
+    font-family: var(--font-family);
+    font-size: 25px;
+} */
