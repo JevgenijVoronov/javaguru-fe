@@ -1,0 +1,56 @@
+.primary {
+    background-color: rgb(56, 90, 204);
+    color:white;
+    border-radius: 4px;
+    padding: 12px 80px;
+    font-size: large;
+}
+.danger {
+    background-color: red;
+    color:white;
+    border-radius: 4px;
+    padding: 12px 80px;
+    font-size: large;
+}
+.warning {
+    background-color: yellow;
+    color:white;
+    border-radius: 4px;
+    padding: 12px 80px;
+    font-size: large;
+}
+.info {
+    background-color: rgb(3, 201, 250);
+    color:white;
+    border-radius: 4px;
+    padding: 12px 80px;
+    font-size: large;
+}
+.success {
+    background-color: rgb(39, 206, 95);
+    color:white;
+    border-radius: 4px;
+    padding: 12px 80px;
+    font-size: large;
+}
+.link {
+    border: none;
+    color:blue;
+}
+
+.extra-small {
+    font-size: x-small;
+    padding: 4px 30px;
+}
+.small {
+    font-size: small;
+    padding: 6px 40px;
+}
+.normal {
+    font-size: medium;
+    padding: 8px 60px;
+}
+.large {
+    font-size: large;
+    padding: 12px 80px;
+}

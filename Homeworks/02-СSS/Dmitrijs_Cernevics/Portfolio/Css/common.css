@@ -1,0 +1,21 @@
+@import url(../Fonts/);
+
+html {
+    font-family: 'Kufam', sans-serif;
+}
+body {
+    /* background-image: url(../back.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    padding: 20px 20px;
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--main-color);
+}
+
+p {
+    color: var(--text-color);
+}
