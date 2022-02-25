@@ -27,17 +27,15 @@
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
+                <a class="main__contactBtn" href="#contactme">CONTACT ME</a><br><br><br><br>
                 <a class="main__contactInfo" href="draimers@mail.ru">draimers@mail.ru</a><br>
-                <br>
-                <a class="main__contactInfo" href="tel:+44 7932586657">+44 7932586657</a>
+                <a class="main__contactInfo" href="tel:+44 7932586657">+44 7932586657</a><br>
             </address> <!--Name and Contacts-->
         </section>
 
         <section class="workExperience">
             <h2>Work Experience</h2>
-            <p>I don't have any commercial experience in IT.</p>
+            <p>I don't have any commercial experience in IT.</p><br>
         </section>
 
         <section class="education">
@@ -45,7 +43,7 @@
         
             <p><b>2012-13</b><br> Edexcel BTEC Level 3 90 Credit Diploma in IT at Great Yarmouth College<br>
             <b>2011-12</b><br> Edexcel BTEC Level 2 Diploma in IT at Great Yarmouth College<br>
-            <b>2010-11</b><br> BCS Level 1 Award in IT User Skills (ECDL Essentials) (ITQ) (QCF) in IT at Great Yarmouth College</p>
+            <b>2010-11</b><br> BCS Level 1 Award in IT User Skills (ECDL Essentials) (ITQ) (QCF) in IT at Great Yarmouth College</p><br>
         </section>
 
         <section class="skills">
@@ -58,7 +56,7 @@
                 <li>JS</li>
                 <li>Github</li>
                 <li>Microsoft Office</li>
-            </ul>
+            </ul><br>
         </section>
 
         <section class="pqa">
@@ -70,7 +68,7 @@
                 <li>Organised</li>
                 <li>Responsible</li>
                 <li>Able to work alone and as a part of a team</li>
-        </ul>
+        </ul><br>
         </section>
     
         <section class="languages">
@@ -99,13 +97,47 @@
                 <circle cx="70" cy="10" r="5" fill="white"./> 
                 <circle cx="85" cy="10" r="5" fill="white"./>             
             </svg>  <!--/Language skills bar-->
+            <br>
+            <br>
         </section>
 
         <section class="aboutMe">
             <h2>Little Bit About Me</h2>
             <p>I want to be Junior Web Developer to use my existing skills,<br>
             to get experience and to further develop my abilities. <br>
-            I have a will to learn new things and I am ready to accept new challenges.</p>
+            I have a will to learn new things and I am ready to accept new challenges.</p><br>
+        </section>
+        <section id="contactme" class="contactMe">
+            <h2>Contact me</h2>
+
+            <form action="action_page.php">
+                <input 
+                    type="text" 
+                    id="firstname" 
+                    name="firstname" 
+                    placeholder="Your name.." 
+                    class="contactMe__input"
+                >
+                <br><br>
+
+                <input 
+                    type="text" 
+                    id="company" 
+                    name="lastname" 
+                    placeholder="Company name.." 
+                    class="contactMe__input"
+                >
+                <br><br>
+            
+                <textarea 
+                    id="subject" 
+                    name="subject" 
+                    placeholder="Write something.." 
+                    class="contactMe__text-area"></textarea>
+                <br><br>
+
+                <input type="submit" value="Submit" class="contactMe__submit-btn">            
+              </form><br>
         </section>
     </main>
 

@@ -1,12 +1,13 @@
 .main {
+    background-image: url(../Images/Main.png), url(../Images/myself3.png);
     height: 50vh;
     background-size: contain;
-    background-color: black;
-    background-image: url(../Images/Main.png);
-    /* box-shadow: 20px 20px 20px 20px white inset; */
+    background-color: var(--black-color);
+    /* box-shadow: 20px 20px 20px 20px rgb(0, 0, 0) inset; */
     background-repeat: no-repeat;
     /* background-position: bottom; */
-    background-position: 90%;
+    background-position: 90%,42%;
+    background-size: 28%, 35%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -20,13 +21,26 @@
 
 .main__title { 
     font-size: 4vw;
-    color: var(--text-color);
+    color: var(--white-color);
 }
 .main__contactInfo {
     padding: 15px 0px;
     font-size: 1.5vw;
     display: inline-block;
-    /* color: var(--text-color); */
+    /* color: var(--white-color); */
     text-decoration: none;
     color: rgb(45, 145, 238);
+}
+.main__contactBtn {
+    text-decoration:  none;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    margin-top: 15px;
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    padding: 10px 70px;
+}
+.main__contactBtn:hover {
+    color: var(--white-color);
+    background-color: var(--black-color);
 }

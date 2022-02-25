@@ -1,6 +1,6 @@
 .header {
     display:flex;
-    background-color: var(--back-color);
+    background-color: var(--black-color);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -8,9 +8,19 @@
     
 }
 .header__item a{
-    color: var(--text-color);
+    color: var(--white-color);
     text-decoration: none;
     padding: 0 10px 0 10px;
+}
+
+.header__item a:hover {
+        background-color: var(--white-color);
+        color: var(--black-color);
+      }
+      
+.header__item a.active {
+        background-color: #04AA6D;
+        color: var(--white-color);
     /* background-color: rgb(150, 231, 20);
     margin: 10px;
     width: 200px;
