@@ -1,6 +1,6 @@
 .header {
     display:flex;
-    background-color: lightgray;
+    background-color: var(--back-color);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -8,6 +8,7 @@
     
 }
 .header__item a{
+    color: var(--text-color);
     text-decoration: none;
     padding: 0 10px 0 10px;
     /* background-color: rgb(150, 231, 20);

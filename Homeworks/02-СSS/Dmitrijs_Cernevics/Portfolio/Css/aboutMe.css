@@ -1,0 +1,6 @@
+.aboutMe {
+    background-color: var(--back-color);
+    border: 2px solid var(--text-color);
+    border-radius: 50px;
+    text-align:center;
+}

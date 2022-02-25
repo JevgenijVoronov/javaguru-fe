@@ -1,11 +1,12 @@
 .main {
     height: 50vh;
-    background-repeat: no-repeat;
-    background-image: 
-        linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(0 0 0 / 80%));
     background-size: contain;
+    background-color: black;
+    background-image: url(../Images/Main.png);
+    /* box-shadow: 20px 20px 20px 20px white inset; */
+    background-repeat: no-repeat;
     /* background-position: bottom; */
-    background-position: 70%;
+    background-position: 90%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -13,9 +14,19 @@
 }
 
 .main__preTitle { 
-    font-size: 3vw;
+    font-size: 2vw;
+    color: yellow;
 }
 
 .main__title { 
-    font-size: 5vw;
+    font-size: 4vw;
+    color: var(--text-color);
+}
+.main__contactInfo {
+    padding: 15px 0px;
+    font-size: 1.5vw;
+    display: inline-block;
+    /* color: var(--text-color); */
+    text-decoration: none;
+    color: rgb(45, 145, 238);
 }
