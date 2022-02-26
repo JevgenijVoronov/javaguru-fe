@@ -1,8 +1,8 @@
 .languages {
     background-color: var(--black-color);
     color: var(--white-color);
-    border: 2px solid var(--white-color);
-    border-radius: 50px;
+    /* border: 2px solid var(--white-color);
+    border-radius: 50px; */
     text-align:center;
 }
     

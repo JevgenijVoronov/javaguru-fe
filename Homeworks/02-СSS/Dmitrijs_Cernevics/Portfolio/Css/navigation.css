@@ -10,12 +10,12 @@
 .header__item a{
     color: var(--white-color);
     text-decoration: none;
-    padding: 0 10px 0 10px;
+    padding: 20px 10px 20px 10px;
 }
 
 .header__item a:hover {
-        background-color: var(--white-color);
-        color: var(--black-color);
+        background-color: rgb(65, 63, 63);
+        color: var(--white-color);
       }
       
 .header__item a.active {

@@ -1,7 +1,13 @@
 .contactMe {
+    height: 50vh;
+    background-image: url(../Images/myself3.png),linear-gradient(black,rgb(65, 63, 63));
+    background-repeat: no-repeat;
+    background-position: 46%, 10%;
+    background-size: 35%, 100%;
+
     background-color: var(--black-color);
     color: var(--white-color);
-    border: 2px solid var(--white-color);
-    border-radius: 50px;
+    /* border: 2px solid var(--white-color);
+    border-radius: 50px; */
     text-align:center;
 }
