@@ -1,0 +1,21 @@
+.main {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(0 0 0 / 80%));
+    background-size: contain;
+    /* background-position: bottom; */
+    background-position: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__preTitle { 
+    font-size: 3vw;
+}
+
+.main__title { 
+    font-size: 5vw;
+}
