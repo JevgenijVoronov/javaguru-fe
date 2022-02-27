@@ -7,7 +7,7 @@
 form {
   margin: 20px;
 }
-button {
+.button {
   border: none;
   border-radius: 4px;
   color: white;
@@ -18,130 +18,76 @@ button {
 .default {
   border: 1px solid #747474;
 }
+.button:hover {
+  background-color: #9b9a9a;
+}
 
 /**************** Normal size **************/
 
-.button-normal {
+.button_normal {
   font-size: 15px;
   padding: 10px;
 }
-.button-normal__primary {
+.button_primary {
   background-color: var(--primary-color);
 }
-.button-normal__danger {
+.button_danger {
   background-color: var(--danger-color);
 }
-.button-normal__warning {
+.button_warning {
   background-color: var(--warning-color);
 }
-.button-normal__info {
+.button_info {
   background-color: var(--info-color);
 }
-.button-normal__default {
+.button_default {
   background-color: var(--default-color);
   color: var(--color-black);
+}
+.button_normal__border {
   border: 1px solid #747474;
   padding: 9px;
 }
-.button-normal__success {
+.button_success {
   background-color: var(--success-color);
 }
-.button-normal__link {
+.button_link {
   background-color: var(--link-color);
   color: var(--color-link);
 }
 
 /***************** Large size ****************/
 
-.button-large {
+.button_large {
   font-size: 18px;
   padding: 15px;
 }
-.button-large__primary {
-  background-color: var(--primary-color);
-}
-.button-large__danger {
-  background-color: var(--danger-color);
-}
-.button-large__warning {
-  background-color: var(--warning-color);
-}
-.button-large__info {
-  background-color: var(--info-color);
-}
-.button-large__default {
-  background-color: var(--default-color);
-  color: var(--color-black);
+
+.button_large__border {
   border: 1px solid #747474;
   padding: 14px;
 }
-.button-large__success {
-  background-color: var(--success-color);
-}
-.button-large__link {
-  background-color: var(--link-color);
-  color: var(--color-link);
-}
+
 /*************** Small size **************/
 
-.button-small {
+.button_small {
   font-size: 14px;
   padding: 8px;
 }
-.button-small__primary {
-  background-color: var(--primary-color);
-}
-.button-small__danger {
-  background-color: var(--danger-color);
-}
-.button-small__warning {
-  background-color: var(--warning-color);
-}
-.button-small__info {
-  background-color: var(--info-color);
-}
-.button-small__default {
-  background-color: var(--default-color);
-  color: var(--color-black);
+
+.button_small__border {
   border: 1px solid #747474;
   padding: 7px;
-}
-.button-small__success {
-  background-color: var(--success-color);
-}
-.button-small__link {
-  background-color: var(--link-color);
-  color: var(--color-link);
 }
 
 /************** Extra Small size **************/
 
-.button-ExtraSmall {
+.button_ExtraSmall {
   font-size: 13px;
   padding: 6px;
 }
-.button-ExtraSmall__primary {
-  background-color: var(--primary-color);
-}
-.button-ExtraSmall__danger {
-  background-color: var(--danger-color);
-}
-.button-ExtraSmall__warning {
-  background-color: var(--warning-color);
-}
-.button-ExtraSmall__info {
-  background-color: var(--info-color);
-}
-.button-ExtraSmall__default {
-  background-color: var(--default-color);
-  color: var(--color-black);
+
+.button_ExtraSmall__border {
   border: 1px solid #747474;
   padding: 5px;
-}
-.button-ExtraSmall__success {
-  background-color: var(--success-color);
-}
-.button-ExtraSmall__link {
-  background-color: var(--link-color);
-  color: var(--color-link);
 }
