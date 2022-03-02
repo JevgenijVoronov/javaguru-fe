@@ -9,13 +9,17 @@
 </head>
 
 <body>
-    <header class="header">
-        <img src="../../00-Intro/LiudmilaYunevich/image1.jpg" alt="profileImg" width="150px">
+    <header>
+        <ul class="header">
+            <li class="header__item"><a href="#portfolio">ПОРТФОЛИО</a></li>
+            <li class="header__item"><a href="#contact">КОНТАКТЫ</a></li>
+            <li class="header__item"><a href="#form to fill">ФОРМА ДЛЯ ЗАПОЛНЕНИЯ</a></li>
+        </ul>
+        <h1>Услуги фотографа Анны Зиминой</h1>
     </header>
     <main>
-        <h1>Услуги фотографа Анны Зиминой</h1>
-        <hr>
-        <section class="experience">
+        <section>
+            <hr>
             <h2>У меня хороший опыт в фотосъемке</h2>
             <ul class="main">
                 <li>около 10 лет фотографирую в разных жанрах</li>
@@ -40,10 +44,20 @@
         <hr>
         <section class="contact">
             <p class="previouslu">Услуги фотографа заказываются после предварительного согласования</p><br>
-            <h3>Заказать фотосессию у меня можно по телефону:</h3>
-            +375297720583 (Viber WhatsAp)<br>
+            <h3>Заказать фотосессию у меня можно по телефонам:</h3>
+            +375554445577 (Viber WhatsAp)<br>22233377<br>
             <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a><br>
-            <p class="connection">Я обязательно свяжусь с Вами в ближайшее время.</p>
+            <p class="connection">Вы можете самостоятельно заполнить форму для записи<br>
+                и я обязательно свяжусь с Вами в ближайшее время.</p>
+            <form action="action_page.php">
+                <input type="text" name="firstname" placeholder="Ваше имя" class="contact__input">
+                <br><br>
+                <input type="text" name="phone" placeholder="Контактный телефон" class="contact__input">
+                <br><br>
+                <textarea name="subject" placeholder="Ваши предпочтения в съемке" class="contact__text-area"></textarea>
+                <br><br>
+                <input type="submit" value="Submit" class="contact__submit-btn">
+            </form>
         </section>
     </footer>
 </body>
