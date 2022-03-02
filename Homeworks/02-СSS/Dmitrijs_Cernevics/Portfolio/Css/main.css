@@ -17,17 +17,17 @@
 }
 
 .main__preTitle { 
-    font-size: 2vw;
+    font-size: 35px;
     color: orange;
 }
 
 .main__title { 
-    font-size: 4vw;
+    font-size: 70px;
     color: var(--white-color);
 }
 .main__contactInfo {
     padding: 5px 0px;
-    font-size: 1.5vw;
+    font-size: 25px;
     display: inline-block;
     /* color: var(--white-color); */
     text-decoration: none;

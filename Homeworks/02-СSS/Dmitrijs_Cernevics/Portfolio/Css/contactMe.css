@@ -2,7 +2,7 @@
     height: 50vh;
     background-image: url(../Images/myself3.png),linear-gradient(black,rgb(65, 63, 63));
     background-repeat: no-repeat;
-    background-position: 46%, 10%;
+    background-position: 40%, 10%;
     background-size: 35%, 100%;
 
     background-color: var(--black-color);

@@ -1,0 +1,49 @@
+@media only screen and (max-width: 280px){
+    .main__contactBtn {
+        display: none;
+    }
+}
+@media only screen and (max-height: 550px){
+    .main__contactBtn {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1470px){
+    .contactMe {
+        height: 50vh;
+        background-image:linear-gradient(black,rgb(65, 63, 63));
+        background-repeat: no-repeat;
+        background-position: 10%;
+        background-size: 100%;
+
+        background-color: var(--black-color);
+        color: var(--white-color);
+        /* border: 2px solid var(--white-color);
+        border-radius: 50px; */
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 280px){
+    .main__preTitle {
+        font-size: 17.5px;
+    }
+    .main__title {
+        font-size: 35px;
+    }
+    .main_contactInfo {
+        font-size: 12.5px;
+    }
+
+}
+@media only screen and (max-height: 550px){
+    .main__preTitle {
+        font-size: 17.5px;
+    }
+    .main__title {
+        font-size: 35px;
+    }
+    .main_contactInfo {
+        font-size: 12.5px;
+    }
+
+}
