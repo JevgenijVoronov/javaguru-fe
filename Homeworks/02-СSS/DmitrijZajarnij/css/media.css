@@ -5,6 +5,51 @@
         line-height: 30px;
         font-family: 'Dancing Script', cursive;
         font-size: 20px;
-        width: 50%;
+        width: 75%;
     }
-}
+
+    h1 {
+        color: var(--main-color);
+        font-size: var(--font-size);
+        text-align: var(--text-align);
+        width: 75%;
+    }
+
+    h2 {
+        color: var(--main-color);
+        font-size: var(--font-size);
+        text-align: var(--text-align);
+        width: 75%;
+    }
+
+    h3 {
+        color: var(--main-color);
+        font-size: var(--font-size);
+        text-align: var(--text-align);
+        width: 75%;
+    }
+
+    h4 {
+        color: var(--main-color);
+        font-size: var(--font-size);
+        text-align: var(--text-align);
+        width: 75%;
+    }
+
+    h5 {
+        color: var(--main-color);
+        font-size: var(--font-size);
+        text-align: var(--text-align);
+        width: 75%;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        display: none;
+    }
+
+    }
