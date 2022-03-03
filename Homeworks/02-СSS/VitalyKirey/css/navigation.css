@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+
+
+}
+.header__item  a {
+    text-decoration: none;
+    color: var(--font-main-color);
+    text-transform: uppercase;
+
+}
+.header__item a:hover {
+    color: var(--font-hover-color);
+}
+
+.section {
+    text-align: center;
+}
+
+.body {
+    display: flex
+    
+}
