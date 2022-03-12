@@ -1,0 +1,49 @@
+/* 
+.slideInUp {}       Появление сверху
+.slideInDown {}     Появление снизу
+.slideInLeft {}     Появление слева 
+.slideInRight {}    Появление справа
+.fadeIn {}          Появления без трансформации
+.zoomIn {}          Появление из малого в больше
+.zoomReverseIn {}   Появление из большого в малое
+.flipInY {}         Разворот справа
+.flipOutY {}        Разворот слева 
+*/
+
+@keyframes slideInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(25%);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+    
+}
+[data-animation] {
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-duration: 300ms;
+    will-change: transform, opacity;
+}
+
+.slideInUp {
+    animation-name: slideInUp;
+} 
+
+.slideInLeft {
+    animation-name: slideLeft;
+}
