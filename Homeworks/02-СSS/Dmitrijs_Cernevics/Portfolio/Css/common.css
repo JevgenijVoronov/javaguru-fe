@@ -3,14 +3,14 @@
 html {
     font-family: 'Kufam', sans-serif; */
 }
-body {
-
+html {
+    font-family: 'Raleway', sans-serif;
     background-size: cover;
 }
 
 h2 {
     padding: 20px 20px;
-    font-size: 2em;
+    font-size: 45px;
     text-align: center;
     color: yellow;
     /* color: var(--text-color); */

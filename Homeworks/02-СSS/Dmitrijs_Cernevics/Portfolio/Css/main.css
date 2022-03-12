@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     /* background-position: bottom; */
     background-position: 100%, 10%;
-    background-size: 48%, 100%;
+    background-size: 45%, 100%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -17,12 +17,12 @@
 }
 
 .main__preTitle { 
-    font-size: 35px;
+    font-size: 45px;
     color: orange;
 }
 
 .main__title { 
-    font-size: 70px;
+    font-size: 90px;
     color: var(--white-color);
 }
 .main__contactInfo {
@@ -36,7 +36,7 @@
 .main__contactBtn {
     text-decoration:  none;
     color: rgb(45, 145, 238);
-    background-color: none
+    background-color: none;
     margin-top: 15px;
     border: 1px solid var(--white-color);
     border-radius: 5px;

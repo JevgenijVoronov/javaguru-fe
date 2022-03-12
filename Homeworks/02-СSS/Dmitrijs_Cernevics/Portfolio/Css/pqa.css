@@ -3,5 +3,6 @@
     color: var(--white-color);
     /* border: 2px solid var(--white-color);
     border-radius: 50px; */
-    text-align:center;
+    font-size: var(--main-size);
+    padding: 0 20% 30px 20%;
 }
