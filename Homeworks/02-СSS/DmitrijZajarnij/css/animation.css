@@ -92,6 +92,19 @@
     }
 }
 
+@keyframes flipOutY {
+    0%{
+        opacity: 0;
+        transform: rotateY(0deg);
+    }
+
+    100%{
+        opacity: 1;
+        transform: rotateY(-180deg);
+    }
+    
+}
+
 [data-animation] {
     opacity: 0;
     animation-timing-function: ease-in-out;
@@ -131,4 +144,8 @@
 
 .flipInY {
     animation-name: flipInY;
+}
+
+.flipOutY {
+    animation-name: flipOutY;
 }
