@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
 </head>
 <body>
     <header>
         <nav>
             <ul class="header">
-                <li class="header__item"><a href="#work-experience">Work experience</a></li>
+                <li class="header__item"><a href="#work-experience" >Work experience</a></li>
                 <li class="header__item"><a href="#education">Education</a></li>
                 <li class="header__item"><a href="#skills">Skills</a></li>
                 <li class="header__item"><a href="#faq">FAQ</a></li>
@@ -25,8 +26,17 @@
         <!-- ABOUT ME -->
         <section id="aboutme" class="main">
             <address>
-                <p class="main__preTitle">FRONTEND DEVELOPER</p>
-                <h1 class="main__title">Jevgenijs Voronovs</h1>
+                <p 
+                    class="main__preTitle" 
+                    data-animation="slideInUp"
+                    data-animation-delay="0.5"
+                >
+                    FRONTEND DEVELOPER
+                </p>
+                <h1 class="main__title"
+                    data-animation="slideInLeft"
+                    data-animation-delay="2"
+                >Jevgenijs Voronovs</h1>
                 <a class="main__contactInfo" href="https://linkedin.com/in/jevgenijsvoronovs/" target="_blank">LinkedIn</a><br>
                 <a class="main__contactInfo" href="mailto:jevgenijs.voronovs@gmail.com">jevgenijs.voronovs@gmail.com</a><br>
                 <a class="main__contactBtn" href="#contactme">CONTACT ME</a>
@@ -166,6 +176,7 @@
                 <input type="submit" value="Submit" class="contactMe__submit-btn">            
               </form>
         </section>
+        <script src="./js/animation.js"></script>
         <!-- CONTACT FORM -->
     </main>
 </body>
