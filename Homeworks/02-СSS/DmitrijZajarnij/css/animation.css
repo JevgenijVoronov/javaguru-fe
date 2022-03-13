@@ -1,0 +1,27 @@
+@keyframes slideInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+[data-animation] {
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    will-change: transform, opacity;
+}
+
+
+.slideInUp {
+    animation-name: slideInUp;
+}
+
+.slideInLeft {
+
+}
