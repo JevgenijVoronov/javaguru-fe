@@ -34,6 +34,17 @@
     }
 }
 
+@keyframes slideInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(-25%);
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 [data-animation] {
     opacity: 0;
     animation-timing-function: ease-in-out;
@@ -53,4 +64,8 @@
 
 .slideInDown {
     animation-name: slideInDown;
+}
+
+.slideInRight {
+    animation-name: slideInRight;
 }
