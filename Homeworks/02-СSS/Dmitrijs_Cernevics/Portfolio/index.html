@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="./Css/animation.css">
 </head>
 <body>
     <header>
@@ -23,7 +24,11 @@
     <main>
         <section class="main">
             <address> <!--Name and Contacts-->
-                <p class="main__preTitle">JUNIOR FRONTEND DEVELOPER</p>
+                <p class="main__preTitle" 
+                data-animation="slideInUp"
+                data-animation-delay="0.5"
+                >
+                JUNIOR FRONTEND DEVELOPER</p>
                 <h1 class="main__title">Dmitrijs Cernevics</h1><br><br>
                 <a class="main__contactInfo" href="draimers@mail.ru">draimers@mail.ru</a><br>
                 <a class="main__contactInfo" href="tel:+44 7932586657">+44 7932586657</a><br><br><br>
@@ -139,8 +144,8 @@
                 <input type="submit" value="Submit" class="contactMe__submit-btn">            
               </form><br>
         </section>
+        <script scr="./js/animation.js"></script>
     </main>
-
     <footer class="footer">
         <button>Facebook</button>
         <button>WhatsApp</button>
