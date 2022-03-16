@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+ </head>
+ 
+ <body>
+    <b><h1>Форма регистрации</h1></b>
+    <form>
+        <fieldset>
+            <label for="login">Введите свой логин:</label>
+            <input type="text" required=true id="login" name="login">
+
+            <label for="password">Введите пароль:</label>
+            <input type="password" required="true" id="password" name="password">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><mark>Дополнительная информация о себе</mark></legend>
+                <b><h3>Укажите свой пол</h3></b>
+                    <input type="radio" value="male" id="male" name="male"> 
+                        <label for="male">Мужской</label>
+                            <input type="radio" value="female" id="female" name="female">
+                                <label for="female">Женский</label>
+                <b><h3>Укажите дату рождения</h3></b>
+                    День рождение:
+                        <input type="date" name="bday">
+                <b><h3>Место проживания</h3></b>
+                    <legend>Ваш город
+                        <select>
+                            <optgroup label="Латвия">
+                                <option value="Рига">Рига</option>
+                                <option value="Елгава">Елгава</option>
+                            </optgroup> 
+                                <optgroup label="Россия">
+                                        <option value="Москва">Москва</option>
+                                        <option value="Питер">Питер</option><br>
+                                </optgroup>
+                        </select>
+                    </legend>
+        </fieldset>
+        
+        <br>
+        <fieldset>
+            <legend><mark>Ваши хобби</mark></legend><br>
+            <legend>Можно выбрать любое количество увлечений</legend><br>
+                <table>
+                    <tr>
+                    <td><input type="checkbox" name="hobby1" value="trips"><label for="trips">Путешествия</label> </td>
+                            <td><input type="checkbox" name="hobby2" value="coding"><label for="coding">Программиовать</label></td>
+                    </tr>
+
+                    <tr>
+                    <td><input type="checkbox" name="hobby3" value="painting"><label for="painting">Рисовать</label></td>
+                    <td><input type="checkbox" name="hobby4" value="playing on musical instruments"><label for="playing on musical instruments">Играть на музыкальныз инструментах</label> </td>
+                    </tr>
+                </table>
+        </fieldset>           
+
+        <br>
+        <fieldset>
+        <br>
+            <legend><mark>Своё поле</mark></legend>
+            <legend>E-mail:</legend>
+            <input type="email" name="email">
+        
+        </fieldset>
+
+        <br>
+        <button type="button">Отправить</button>
+
+
+    </form>         
+        </body>
+            </html>
