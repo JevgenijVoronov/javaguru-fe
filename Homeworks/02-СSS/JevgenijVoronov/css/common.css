@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
-
 body {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
     color: var(--font-main-color);
     background-color: var(--main-color);
 }
-
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Bebas Neue', cursive;
@@ -33,6 +31,22 @@ h4 {
 p {
     color: var(--text-color);
 }
+<<<<<<< HEAD
 /* main {
     font-family: var(--Raleway);
 } */
+=======
+
+section {
+    background-color: var(--color-black);
+    padding: 0 20% 30px 20%;
+}
+
+
+/* Media query */
+@media only screen and (max-width: 700px) {
+    section {
+        padding: 0 10%;
+    }
+}
+>>>>>>> main
