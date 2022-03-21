@@ -21,15 +21,42 @@
         transform: none;
     }
 }
+@keyframes flipInY {
+    0% {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes soft {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 [data-animation] {
     opacity:0;
     animation-timing-function: ease-in-out;
     animation-fill-mode: both;
-    animation-duration: 300ms;
+    animation-duration: 1000ms;
     will-change: transform, opacity;
 }
 
 .slideInUp {
     animation-name: slideInUp;
+}
+
+.flipInY {
+    animation-name: flipInY;
+}
+.soft {
+    animation-name: soft;
 }

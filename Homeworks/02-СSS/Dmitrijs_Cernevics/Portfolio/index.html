@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" 
+    data-animation="soft"
+    data-animation-delay="2"
+    >
 <head>
     <title>Portfolio</title>
     <meta charset="UTF-8">
@@ -8,7 +11,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="./Css/animation.css">
 </head>
-<body>
+<body >
     <header>
         <nav> <!--Navigation Menu-->
             <ul class="header">
@@ -30,7 +33,11 @@
                 >
                 JUNIOR FRONTEND DEVELOPER
                 </p>
-                <h1 class="main__title">Dmitrijs Cernevics</h1><br><br>
+                <h1 class="main__title"
+                data-animation="flipInY"
+                data-animation-delay="2"
+                >
+                Dmitrijs Cernevics</h1><br><br>
                 <a class="main__contactInfo" href="draimers@mail.ru">draimers@mail.ru</a><br>
                 <a class="main__contactInfo" href="tel:+44 7932586657">+44 7932586657</a><br><br><br>
                 <a class="main__contactBtn" href="#contactme">CONTACT ME</a><br><br><br><br>
@@ -145,7 +152,7 @@
                 <input type="submit" value="Submit" class="contactMe__submit-btn">            
               </form><br>
         </section>
-        <script scr="./js/animation.js"></script>
+        <script src="./js/animation.js"></script>
     </main>
     <footer class="footer">
         <button>Facebook</button>
