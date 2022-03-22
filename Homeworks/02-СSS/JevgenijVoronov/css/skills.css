@@ -1,11 +1,11 @@
 .skills {
-    background-color: var(--color-black);
-    padding: 0 20% 30px 20%;
+    /* background-color: var(--color-black);
+    padding: 0 20% 30px 20%; */
 }
 .skills__item {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start
+    justify-content: flex-start;
     
 }
 .skills__item li {

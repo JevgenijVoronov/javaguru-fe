@@ -26,7 +26,7 @@
              GRID Names
 ------------------------------ */
 
-/* .item01 { grid-area: header; }
+.item01 { grid-area: header; }
 .item02 { grid-area: menu; }
 .item03 { grid-area: main; }
 .item04 { grid-area: right; }
@@ -49,7 +49,7 @@
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  } */
+  }
 
 
 
