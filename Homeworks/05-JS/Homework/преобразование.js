@@ -2,22 +2,22 @@
 
 
 // К строке:
-String(123)            
-String(-12.3)           
-String(null)            
-String(undefined)       
-String(true)            
-String(false)           
-String(function () {})  
-String({})              
-String({ key: 42 })     
-String([])              
-String([1, 2])          
+String(123)             "123"
+String(-12.3)           "12.3"
+String(null)            'null'          
+String(undefined)       'undefined'   
+String(true)            'true'  
+String(false)           'false'
+String(function () {})  'function () {}'
+String({})              ''
+String({ key: 42 })     '{key:42}'
+String([])              ''
+String([1, 2])          '1,2'
 
 // К числу:
-Number("123")           
-Number("123.4")         
-Number("123,4")         
+Number("123")           123  
+Number("123.4")         123.4
+Number("123,4")         123.4
 Number("")              
 Number(null)            
 Number(undefined)       
