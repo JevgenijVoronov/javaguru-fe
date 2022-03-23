@@ -40,6 +40,10 @@ switch(operator) {
 // Calculation of devision /
     case '/':
          result = num1 / num2;
+
+         //Alert that you deviding on 0
+         case '0':
+             alert("You deviding on 0");
         break;
 }
 console.log(`${num1} ${operator} ${num2} = ${result}`);
