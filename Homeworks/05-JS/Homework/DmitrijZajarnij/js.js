@@ -16,9 +16,28 @@ const operator = prompt('Оператор (  +, -, *, / ): ');
 const number1 = prompt('Первое число: ');
 const number2 = prompt('Второе число: ');
 
+let (number1) = Number;
+let (number2) = Number;
+
 let result;
 
 // using if...else if... else
+
+if(operator === '+'){
+    result = number1 + number2
+}
+
+if(operator === '-'){
+    result = number1 - number2
+}
+
+if(operator === '*'){
+    result = number1 * number2
+}
+
+if(operator === '/'){
+    result = number1 / number2
+}
 
 
 // display the result
