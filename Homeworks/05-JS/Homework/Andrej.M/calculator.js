@@ -11,26 +11,29 @@ const number2 = prompt('Второе число: ');
 if (isNaN(number2)) {
     alert("Нужно писать число!");
   } 
-// let result;
+//   let result 
 
     if(operator == "+"){
-    alert(Number(number1) + Number(number2))
+   // alert(parseInt(number1) + parseInt(number2))
+   alert((+number1 + +number2).toFixed(1))
 }
 else if (operator == "-"){
-    alert(Number(number1) - Number(number2))
+   // alert(parseInt(number1) - parseInt(number2)) 
+   alert((+number1 - +number2).toFixed(1))
 }
 else if (operator == "*"){
-    alert(Number(number1) * Number(number2))
+    // alert(parseInt(number1) * parseInt(number2))
+    alert(+number1 * +number2)
 }
 else if (operator == "/"){
-    alert(Number(number1) / Number(number2))
+    alert((parseInt(number1) / parseInt(number2)).toFixed(1))  
 }
-else if(operator == "/" && number2 == 0){
-         alert("На 0 делить нельзя")  // Не выводит. 
+else if(operator == "/" && parseInt(number2) === "2"){
+      alert("На 0 делить нельзя")  // Не выводит. 
 }
 
 // using if...else if... else
 
 
 // display the result
-// console.log(`${parseInt(number1)} ${operator} ${parseInt(number2)} = ${result}`);
+//console.log(`${parseInt(number1)} ${operator} ${parseInt(number2)} = ${result}`);
