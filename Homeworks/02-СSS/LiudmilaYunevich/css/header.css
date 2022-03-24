@@ -1,0 +1,29 @@
+.header {    
+    height: 370px;
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(to bottom, rgba(184, 79, 128, 0), rgba(129, 65, 65, 0.8)), 
+        url(../../../00-Intro/LiudmilaYunevich/image1.jpg);
+        
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+.header__item a {
+    text-decoration: none;
+    color: var(--font-main-color);
+    text-transform: uppercase;
+    font-size: 25px;    
+    font-family: cursive;
+}
+.header__item a:hover {
+    color: yellow;
+}

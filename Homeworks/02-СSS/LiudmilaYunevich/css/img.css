@@ -1,0 +1,62 @@
+.img {
+    background-color: rgb(179, 71, 173);
+    background-position: center;
+    background-repeat:no-repeat;    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    background-size: 40%;  
+       
+}
+.img :nth-child(1){
+    align-self: center;
+    padding-top: 15px;
+} 
+.img :nth-child(2){
+    align-self: center;
+    padding-top: 15px;    
+}  
+.img :nth-child(3){
+    align-self: center;
+    padding-top: 15px;
+}     
+
+.img :nth-child(4){
+    align-self: center;
+    padding-top: 15px;
+}    
+  
+.img :nth-child(5){
+     align-self: center;
+     height: 290px;
+     padding-top: 15px;
+   
+}
+.img :nth-child(6){
+    align-self: center;
+    height: 290px;
+    padding-top: 15px;
+}
+.img :nth-child(7){
+   justify-content: space-around;
+   padding-bottom: 20px;
+   padding-top: 15px;
+  
+    
+}
+.img :nth-child(8) {
+    justify-content: space-around;
+    width: 350px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+   
+}
+
+@media only screen and (max-width: 700px) {
+    .img {
+        background-size: 40%;
+    }
+
+}  
