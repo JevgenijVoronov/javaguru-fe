@@ -25,12 +25,13 @@ else if (operator == "*"){
     // alert(parseInt(number1) * parseInt(number2))
     alert(+number1 * +number2)
 }
+else if(operator == "/" && parseInt(number2) === 0){
+    alert("На 0 делить нельзя. Ваш комппьютер заблокированн!!!")
+}
 else if (operator == "/"){
     alert((parseInt(number1) / parseInt(number2)).toFixed(1))  
 }
-else if(operator == "/" && parseInt(number2) === "2"){
-      alert("На 0 делить нельзя")  // Не выводит. 
-}
+
 
 // using if...else if... else
 
