@@ -20,6 +20,14 @@ let result;
 
 // // using if...else if... else
 
+if(isNaN(number1)){
+    alert('That is not a number!Please try again and input ONLY number!')
+}
+
+if(isNaN(number2)){
+    alert('That is not a number!Please try again and input ONLY number!')
+}
+
 if(operator === '+'){                // if (example)
     result = number1 + number2
 }
