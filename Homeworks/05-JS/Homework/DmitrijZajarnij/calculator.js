@@ -13,17 +13,14 @@
 const operator = prompt('Оператор (  +, -, *, / ): ');
 
 // take the operand input
-const number1 = prompt('Первое число: ');
-const number2 = prompt('Второе число: ');
-
-let (number1) = Number;
-let (number2) = Number;
+const number1 = Number(prompt('Первое число: '));
+const number2 = Number(prompt('Второе число: '));
 
 let result;
 
-// using if...else if... else
+// // using if...else if... else
 
-if(operator === '+'){
+if(operator === '+'){                // if (example)
     result = number1 + number2
 }
 
@@ -36,9 +33,31 @@ if(operator === '*'){
 }
 
 if(operator === '/'){
-    result = number1 / number2
+    result = number1 / number2      // if (exaple)
 }
 
 
+
+
+// switch(operator) {                      // switch(example)
+//     case '+':
+//         result = number1 + number2
+//         break;
+
+//     case '-':
+//         result = number1 - number2
+//         break;
+
+//     case '*':
+//         result = number1 * number2
+//         break;
+
+//     case '/':
+//         result = number1 / number2
+//         break;
+// }                                       // switch(example)
+
+
+
 // display the result
-console.log(`${number1} ${operator} ${number2} = ${result}`);
+alert(`${number1} ${operator} ${number2} = ${result}`);
