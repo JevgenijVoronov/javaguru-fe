@@ -1,0 +1,7 @@
+section {
+    background-color: var(--section-color);
+}
+
+.main {
+    padding-left: 70px;
+}

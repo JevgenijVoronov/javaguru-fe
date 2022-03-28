@@ -1,0 +1,50 @@
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+.previouslu {
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
+.connection {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: yellow;
+    font-size: 25px;
+}
+.contact__input,
+.contact__text-area {
+    width: 215px;   
+    height: 50px;
+    font-size: 15px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+}
+
+.contact__text-area {
+    height: 80px;
+}
+
+.contact__submit-btn {
+    padding: 15px 0px;
+    font-size: 25px;
+    display: inline-block;
+    color: var(--second-color);
+    background-color: transparent;
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px 90px;
+}
+
+.contact__submit-btn:hover {
+    color: var(--contact-color);
+    background-color: orangered;
+    border-color: black;
+}
