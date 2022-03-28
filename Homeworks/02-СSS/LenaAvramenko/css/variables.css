@@ -1,0 +1,10 @@
+:root {
+    --main-color:#dbdbdb;
+    --color-black: #000;
+    --color-white: #fff;
+    --font-main-color: rgb(62, 56, 63);
+    --font-hover-color: #730a9c;
+
+    
+    --large: 50px;
+}
