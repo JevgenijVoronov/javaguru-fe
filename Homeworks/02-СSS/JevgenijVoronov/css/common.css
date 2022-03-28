@@ -31,6 +31,11 @@ h4 {
 p {
     color: var(--text-color);
 }
+<<<<<<< HEAD
+/* main {
+    font-family: var(--Raleway);
+} */
+=======
 
 section {
     background-color: var(--color-black);
@@ -44,3 +49,4 @@ section {
         padding: 0 10%;
     }
 }
+>>>>>>> main

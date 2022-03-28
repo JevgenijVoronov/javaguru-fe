@@ -1,0 +1,9 @@
+.workExperience {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    /* border: 2px solid var(--white-color);
+    border-radius: 50px; */
+    /* font-size: 30px; */
+    padding: 0 20% 30px 20%;
+    font-size: var(--main-size);
+}

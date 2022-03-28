@@ -1,5 +1,7 @@
 :root {
     --main-color:rgb(16, 8, 133);
-    --back-color:rgb(54, 54, 54);
-    --text-color:white;
+    --black-color:rgb(0, 0, 0);
+    --white-color:white;
+    --Raleway: 'Raleway', sans-serif;
+    --main-size: 30px;
 }

@@ -4,4 +4,13 @@
 
 @import url(navigation.css);
 @import url(main.css);
-@import url(work-experience.css);
+@import url(workExperience.css);
+@import url(education.css);
+@import url(skills.css);
+@import url(pqa.css);
+@import url(languages.css);
+@import url(aboutMe.css);
+@import url(contactMe.css);
+@import url(footer.css);
+
+@import url(media.css);

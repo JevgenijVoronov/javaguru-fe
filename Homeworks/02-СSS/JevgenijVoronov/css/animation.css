@@ -99,6 +99,13 @@
    animation-duration: 300ms;
    will-change: transform, opacity;
 }
+[data-animation2] {
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-duration: 3000ms;
+    will-change: transform, opacity;
+}
 
 .slideInUp {
    animation-name: slideInUp;
