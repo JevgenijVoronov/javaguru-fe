@@ -13,38 +13,36 @@
 const operator = prompt('Operator (  +, -, *, / ): ');
 
 // First and second number choice
-const number1 = prompt('First number: ');
-const number2 = prompt('Second number: ');
+const number1 = Number (prompt('First number: '));
+const number2 = Number (prompt('Second number: '));
 
-//Change data type and variables set
-let num1 = Number(number1);
-let num2 = Number(number2);
+//variables set
 let result;
 
 // Calculation of sum +
 switch(operator) {
     case '+':
-         result = num1 + num2;
+         result = number1 + number2;
         break;
 
 // Calculation of substraction -
     case '-':
-         result = num1 - num2;
+         result = number1 - number2;
         break;
 
 // Calculation of multiplication *
     case '*':
-         result = num1 * num2;
+         result = number1 * number2;
         break;
 
 // Calculation of devision /
     case '/':
-         result = num1 / num2;
+         result = number1 / number2;
 
          //Alert that you deviding on 0
          case '0':
              alert("You deviding on 0");
         break;
 }
-console.log(`${num1} ${operator} ${num2} = ${result}`);
-window.alert(`${num1} ${operator} ${num2} = ${result}`);
+console.log(`${number1} ${operator} ${number2} = ${result}`);
+window.alert(`${number1} ${operator} ${number2} = ${result}`);
