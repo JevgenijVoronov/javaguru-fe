@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link rel="stylesheet" href="../CSS/style.css" />
+	<title>GuruPizza</title>
+</head>
+
+<body>
+	<!-- header start -->
+	<header>
+		<div class="container">
+			<nav>
+				<div class="logo">
+					<span class="icon"><i class="material-icons">local_pizza</i></span>
+					<span class="title"> <a href="/index.html">GuruPizza</a></span>
+				</div>
+				<div class="nav-link">
+					<ul>
+						<li class="nav-item"><a href="./auth/login.html" id="loginButton">Login</a></li>
+						<li class="nav-item" id="basket-container"><i class="material-icons">shopping_basket</i><span id="basket"></span></li>
+						<li class="nav-item"><a id="cartName"></a></li>
+						<li class="nav-item"><a id="logoutButton">Logout</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- main start -->
+	<main class="container">
+		<div class="welcome-text"><h3 id="welcome-text">Магазин</h3></div>
+
+		<div class="flex-container">
+			<div class="product-list-container" id="product-container">
+				<div class="product-item">
+               <div class="prod-image">
+                  <img src="https://thumb.tildacdn.com/tild3630-3739-4630-b135-636564326335/-/resize/275x/-/format/webp/Margarita-removebg-p.png" alt="">
+               </div>
+               <div class="prod-data" >
+                  <span id="prod-title">Маргарита</span>
+                  <span id="prod-price">$ 65</span>
+                  <p id="prod-description">Соус для пиццы, сыр, помидоры, орегано</p>
+                  <form class="cart-btn">
+                     <button class="btn" id="add-to-cart" type="submit">Заказать</button>
+                  </form>
+               </div>
+            </div>
+            <div class="vertical-space"></div>
+
+
+			</div>
+		</div>
+	</main>
+	<!-- main end -->
+
+	<!-- footer start -->
+	<footer>
+		<div class="container">
+			<div class="footer-container">
+				<div class="foot-col-social">
+					<div class="social-text">
+						<p>Follow us on:</p>
+					</div>
+					<ul class="social">
+						<li><a href="#" class="foot-icons facebook"></a></li>
+						<li><a href="" class="foot-icons twitter"></a></li>
+						<li><a href="" class="foot-icons instagram"></a></li>
+						<li><a href="" class="foot-icons tumblr"></a></li>
+					</ul>
+				</div>
+				<div class="foot-col-text">
+					<p>Call us toll free on: +9999 999 999</p>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="footer-text">
+				<p>
+					Design & developed by JavaGuru | Copyright 2022 |
+					<a href="">Privacy Policy</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+	<script src="../JS/app.js"></script>
+	<script src="../JS/data.js"></script>
+</body>
+
+</html>
