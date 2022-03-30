@@ -30,9 +30,9 @@ p .class {                              /* 1.0.0.1.1 */
 
 (p em) /* < */ (p.class)
 /*0.0.2*/       /*0.1.1*/
-(#m_d) /* < */ (em.m_cl)
+(#m_d) /* > */ (em.m_cl)
 /*1.0.0*/      /*0.1.1*/
 (div p#my_id span) /* <*/ (div[title*="City"] span#s_id) 
 /*1.0.3*/                    /*1.1.2*/
 (div>div.my_class p[contenteditable].red_color span:hover) /* > */ (div p+div[title="css"] p.green_color span)
-/*.0.4.4*/                                                               /*0.2.5*/ 
+/*.0.4.4*/                                                               /*0.2.5*/  

@@ -1,0 +1,173 @@
+@import "./navigation.css";
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    font-size: 15px;
+    padding: 10px ;
+    border-radius: 4px;
+    color:white;
+}
+/* Normal size  */
+
+.primary-s1{
+    background-color:var(--pr-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.danger-s1{
+    background-color: var(--d-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.warning-s1{
+    background-color:var( --w-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.info-s1{
+    background-color:var( --i-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.success-s1{
+    background-color: var(--s-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.default-s1{
+
+    font-size: 15px;
+    padding: 10px ;
+    background-color:var(--default-color);
+    color:black;
+    border: solid 1px black;
+}
+.link-s1{
+    background-color: var(--default-color);
+    color: var(--link-color);
+    font-size: 15px;
+    padding: 10px ;
+   
+    
+}
+
+/* Normal size ends */
+
+
+/* Large size  */
+
+.primary-s2{
+    background-color:var(--pr-color);
+    font-size: 23px;
+    padding: 15px ;
+}
+.danger-s2{
+    background-color: var(--d-color);
+    font-size: 23px;
+    padding: 15px ;
+}
+.warning-s2{
+    background-color:var( --w-color);
+    font-size: 23px;
+    padding: 15px ;
+}
+.info-s2{
+    background-color:var( --i-color);
+    font-size: 23px;
+    padding: 15px ;
+}
+.success-s2{
+    background-color: var(--s-color);
+    font-size: 23px;
+    padding: 15px ;
+}
+
+/* Large size ends*/
+
+
+/* Small size  */
+
+.primary-s3{
+    background-color:var(--pr-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.danger-s3{
+    background-color: var(--d-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.warning-s3{
+    background-color:var( --w-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.info-s3{
+    background-color:var( --i-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.success-s3{
+    background-color: var(--s-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+.default-s3{
+
+    font-size: 15px;
+    padding: 10px ;
+    background-color:var(--default-color);
+    color:black;
+    border: solid 1px black;
+}
+.link-s3{
+    background-color: var(--default-color);
+    color: var(--link-color);
+    font-size: 15px;
+    padding: 10px ;
+}
+ /* Small size ends  */
+
+
+/* Extra small size  */
+
+.primary-s4{
+    background-color:var(--pr-color);
+    font-size: 13px;
+    padding: 8px ;
+}
+.danger-s4{
+    background-color: var(--d-color);
+    font-size: 13px;
+    padding: 8px ;
+}
+.warning-s4{
+    background-color:var( --w-color);
+    font-size: 13px;
+    padding: 8px ;
+}
+.info-s4{
+    background-color:var( --i-color);
+    font-size: 13px;
+    padding: 8px ;
+}
+.success-s4{
+    background-color: var(--s-color);
+    font-size: 13px;
+    padding: 8px ;
+}
+.default-s4{
+
+    font-size: 13px;
+    padding: 8px ;
+    background-color:white;
+    color:black;
+    border: solid 1px black;
+}
+.link-s4{
+    background-color: var(--default-color);
+    color: var(--link-color);
+    font-size: 13px;
+    padding: 8px ;
+    /* Extra small size ends  */
+}
