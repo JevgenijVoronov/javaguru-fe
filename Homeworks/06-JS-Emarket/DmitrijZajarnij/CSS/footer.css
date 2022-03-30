@@ -20,12 +20,44 @@ footer {
 	padding-left: 10px;
 }
 
-.foot-icons {
-	background-color: lightgrey;
+.foot-icons-facebook {
+	background-image: url(../Files/facebook.jpg);
+	background-color: white;
 	display: block;
-	width: 20px;
-	height: 20px;
+	width: 200px;
+	height: 193px;
 	margin-right: 10px;
+	border-radius: 35px;
+}
+
+.foot-icons-twitter {
+	background-image: url(../Files/twitter.jpg);
+	background-color: white;
+	display: block;
+	width: 190px;
+	height: 185px;
+	margin-right: 10px;
+	border-radius: 35px;
+}
+
+.foot-icons-instagram {
+	background-image: url(../Files/instagram.jpg);
+	background-color: white;
+	display: block;
+	width: 128px;
+	height: 128px;
+	margin-right: 10px;
+	border-radius: 40px;
+}
+
+.foot-icons-tumblr {
+	background-image: url(../Files/tumblr.png);
+	background-color: #2b79c2;
+	display: block;
+	width: 180px;
+	height: 190px;
+	margin-right: 10px;
+	border-radius: 58px;
 }
 
 .line {
