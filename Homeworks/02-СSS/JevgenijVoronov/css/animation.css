@@ -18,8 +18,9 @@
     100% {
         opacity: 1;
         transform: none;
+        }
     }
-}
+
 @keyframes slideInDown {
     0% {
         opacity: 0;

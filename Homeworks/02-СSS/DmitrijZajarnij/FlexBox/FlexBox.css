@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    background-color: grey;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container div {
+    background-color: lightgray;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+div > .flex-container__item1 {
+    height: 120px;
+  }
+  
+  div > .flex-container__item2 {
+    height: 50px;
+  }
+  
+  div > .flex-container__item3 {
+    height: 280px;
+  }
+  
