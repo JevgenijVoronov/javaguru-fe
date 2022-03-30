@@ -21,3 +21,8 @@ a {
 	color: inherit;
 	cursor: pointer;
 }
+
+.container {
+	width: 70%;
+	margin: auto;
+}

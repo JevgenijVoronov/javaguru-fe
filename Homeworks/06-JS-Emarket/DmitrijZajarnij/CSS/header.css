@@ -1,0 +1,22 @@
+header {
+	position: fixed;
+	width: 100%;
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+	background: linear-gradient(to right, #ACB6E5, #74ebd5);
+	display: flex;
+	flex-direction: row;
+	z-index: 999;
+}
+
+.logo {
+	align-content: flex-start;
+	padding: 10px 10px 12px 10px;
+	font-weight: 800;
+	font-size: 1.5em;
+	align-content: center;
+}
+
+.icon {
+	position: relative;
+	top: 3px;
+}
