@@ -21,6 +21,7 @@ footer {
 }
 
 .foot-icons {
+	background-color: lightgrey;
 	display: block;
 	width: 20px;
 	height: 20px;
