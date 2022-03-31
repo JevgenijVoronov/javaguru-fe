@@ -1,5 +1,5 @@
 //render products based on given categories
-document.addEventListener("DOMContentLoaded", function renderProducts(data) {
+function renderProducts(data) {
 	let productContainer = document.getElementById('product-container');
 	productContainer.innerHTML = "";
 	data.forEach( element => {
@@ -21,5 +21,6 @@ document.addEventListener("DOMContentLoaded", function renderProducts(data) {
       `;
 		}
 	);
-})
-console.log(data)
+}
+document.addEventListener("DOMContentLoaded", renderProducts(data) )
+
