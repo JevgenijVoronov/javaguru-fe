@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../style.css" />
 	<title>GuruPizza</title>
 </head>
 
@@ -16,16 +16,13 @@
 		<div class="container">
 			<nav>
 				<div class="logo">
-					<span class="icon"><i class="material-icons">local_pizza</i></span>
-					<span class="title"> <a href="/index.html">GuruPizza</a></span>
+					<span class="title"> <a href="./../index.html">GuruPizza</a></span>
+					<span class="icon"><i class="material-icons">shopping_cart</i></span>
 				</div>
 				<div class="nav-link">
 					<ul>
-						<li class="nav-item"><a href="./auth/login.html" id="loginButton">Login</a></li>
-						<li class="nav-item"><a href="./auth/signup.html" id="signUpButton">Sing Up</a></li>
-						<li class="nav-item" id="basket-container"><i class="material-icons">shopping_basket</i><span id="basket"></span></li>
-						<li class="nav-item"><a id="cartName"></a></li>
-						<li class="nav-item"><a id="logoutButton">Logout</a></li>
+						<li class="nav-item"><a href="./../index.html">Home</a></li>
+						<li class="nav-item"><a href="./signup.html">Sign Up</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -34,22 +31,20 @@
 	<!-- header end -->
 
 	<!-- main start -->
-	<main class="container">
-		<div class="welcome-text"><h3 id="welcome-text">Магазин</h3></div>
-
-		<div class="category-bar">
-			<div class="nav-link center">
-				<ul>
-					<li id="cat-all" class="nav-item"><a onclick="filter('all')">Все</a></li>
-					<li id="cat-pizza" class="nav-item" ><a onclick="filter('pizza')">Пиццы</a></li>
-					<li id="cat-drinks" class="nav-item"><a onclick="filter('drinks')">Напитки</a></li>
-				</ul>
+	<main class="container auth-main">
+		<div class="card">
+			<div class="card-tile">
+				<h3>Login Here</h3>
 			</div>
-		</div>
+			<div class="card-content">
+				<form action="javascript:login()" class="form-container">
+					<input class="form-input" type="email" name="loginEmail" id="loginEmail" placeholder="example@abc.com"
+						required />
+					<input class="form-input" type="password" name="loginPassword" id="loginPassword" placeholder="Password"
+						required />
+					<button type="submit" class="btn">Login</button>
+				</form>
 
-		<div class="flex-container">
-			<div class="product-list-container" id="product-container">
-					<!-- Product renders here -->
 			</div>
 		</div>
 	</main>
@@ -78,14 +73,13 @@
 			<div class="footer-text">
 				<p>
 					Design & developed by JavaGuru | Copyright 2022 |
-					<a href="">Privacy Policy</a>
+					<a href="">Privacy Policy</a> | <a href="">Return Policy</a>
 				</p>
 			</div>
 		</div>
 	</footer>
 	<!-- footer end -->
-	<!-- <script src="./data.js"></script> -->
-	<script src="./app.js"></script>
+	<script src="./auth.js"></script>
 </body>
 
 </html>
