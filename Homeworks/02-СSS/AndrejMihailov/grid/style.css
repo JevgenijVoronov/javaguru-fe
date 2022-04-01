@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  color: white;
+}
+div {
+  border: 1px solid white;
+}
+
+.wrap {
+  display: grid;
+  max-width: 1200px;
+  margin: 40px auto;
+  grid-template: repeat(10, 40px) / repeat(10, 1fr);
+  gap: 10px;
+}
+
+.div1 {
+  background-color: #6a501e;
+  grid-column: 1 / 11;
+}
+.div2 {
+  background-color: #5e6822;
+  grid-column: 1 / 3;
+  grid-row: 2 / 9;
+}
+.div10 {
+  grid-row: 2 / 6;
+  grid-column: 3 / 7;
+  background-color: #111468;
+}
+.div11 {
+  grid-row: 2 / 6;
+  grid-column: 7 / 9;
+  background-color: #3a1368;
+}
+.div12 {
+  grid-row: 2 / 6;
+  grid-column: 9 / 11;
+  background-color: #5e1269;
+}
+.div6 {
+  grid-row: 6 / 9;
+  grid-column: 3 / 5;
+  background-color: #00684f;
+}
+.div7 {
+  grid-row: 6 / 9;
+  grid-column: 5 / 7;
+  background-color: #00696c;
+}
+.div8 {
+  grid-row: 6 / 9;
+  grid-column: 7 / 9;
+  background-color: #00496b;
+}
+.div9 {
+  grid-row: 6 / 9;
+  grid-column: 9 / 11;
+  background-color: #00296a;
+}
+.div3 {
+  grid-row: 9 / 11;
+  grid-column: 1 / 5;
+  background-color: #3e6923;
+}
+.div4 {
+  grid-row: 9 / 11;
+  grid-column: 5 / 8;
+  background-color: #186923;
+}
+.div5 {
+  grid-row: 9 / 11;
+  grid-column: 8 / 11;
+  background-color: #046933;
+}

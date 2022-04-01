@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import "./variables.css";
 @import "./common.css";
-@import "./nav.css";
 
+@import "./nav.css";
 @import "./main.css";
+
+@import "./media.css";

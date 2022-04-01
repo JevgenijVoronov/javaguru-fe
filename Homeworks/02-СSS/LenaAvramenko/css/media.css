@@ -1,0 +1,33 @@
+@media only screen and (max-width: 700px) {
+    .nav {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .nav__item {
+        padding: 15px 0px;
+        width: 100%;
+        text-align: center;
+        background-color: blueviolet;
+        border-bottom: 1px solid rgb(120, 34, 201);
+        border-top: 1px solid rgb(147, 53, 235);
+    }
+
+    .nav__item a:hover {
+        color: var(--main-color);
+    }
+
+    .nav__item.works {
+        display: none;
+    }
+} 
+
+@media only screen and (min-width: 700px) {
+    .nav__item.add-edu,
+    .nav__item.cinema,
+    .nav__item.theatre,
+    .nav__item.advertising,
+    .nav__item.lang {
+        display: none;
+    }
+}

@@ -1,9 +1,8 @@
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px 0;
     justify-content: center;
+    padding: 20px 0;
     background-color: var(--color-white);
     box-shadow: 0px 2px 10px rgb(204, 204, 204);
 }
