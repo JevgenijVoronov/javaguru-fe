@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <title>In Memory of Freddie's</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/animation.css">
     </head>
     <body>
         <header>
@@ -23,14 +24,16 @@
         <main>
         <!-- ABOUT FREDDIE -->
         <section id="aboutFreddie">
-        <h1>Welcome To Biography of <i>Freddie Mercury...</i></h1>
-        <img width="200px" src="../../00-Intro/DmitrijZajarnij/img Photo/entertainmentmusic-live-aid-concert-popperfoto.jpg">
-        <img width="500px" src="../DmitrijZajarnij/freddie-mercury-75-1486549.jpg">
-        <img width="200px" src="../DmitrijZajarnij/1195479.jpg">
-        <img width="500px" src="./https___s3-images.ladbible.com_s3_content_a328fd37618b9a5eb2c26b6a5b8b8ecf.jpg">
+        <h1 data-animation="slideInUp" data-animation-delay="0.5">Welcome To Biography of <i>Freddie Mercury...</i></h1>
+        <div class="photos">
+            <img data-animation="zoomIn" data-animation-delay="1" width="200px" src="../../00-Intro/DmitrijZajarnij/img Photo/entertainmentmusic-live-aid-concert-popperfoto.jpg">
+            <img data-animation="zoomReverseIn" data-animation-delay="1" width="500px" src="../DmitrijZajarnij/freddie-mercury-75-1486549.jpg">
+            <img data-animation="flipInY" data-animation-delay="1" width="200px" src="../DmitrijZajarnij/1195479.jpg">
+            <img data-animation="flipOutY" data-animation-delay="1" width="500px" src="./https___s3-images.ladbible.com_s3_content_a328fd37618b9a5eb2c26b6a5b8b8ecf.jpg">
+        </div>
 
-        <h2>About Freddie...</h2>
-        <p> <b><a target="_blank" href="https://en.wikipedia.org/wiki/Freddie_Mercury">Mercury</a></b> was born <b>Farrokh Bulsara</b> in <b>Stone Town</b> in the <b>British</b> protectorate of <b>Zanzibar</b> (<u>now part of Tanzania</u>) on <u>5 September 1946</u>.<br>
+        <h2 data-animation="slideInLeft" data-animation-delay="1">About Freddie...</h2>
+        <p data-animation="fadeIn" data-animation-delay="1"> <b><a target="_blank" href="https://en.wikipedia.org/wiki/Freddie_Mercury">Mercury</a></b> was born <b>Farrokh Bulsara</b> in <b>Stone Town</b> in the <b>British</b> protectorate of <b>Zanzibar</b> (<u>now part of Tanzania</u>) on <u>5 September 1946</u>.<br>
             His parents, <b><a target="_blank" href="https://www.findagrave.com/memorial/186919416/bomi-rustomji-bulsara">Bomi</a></b> (<u>1908–2003</u>) and <b><a target="_blank" href="https://www.billboard.com/music/music-news/jer-bulsara-dead-freddie-mercury-mother-7581505/">Jer Bulsara</a></b> (<u>1922–2016</u>),were from the <b>Parsi</b> community of western <b>India</b>.<br>
             The <b>Bulsaras</b> had origins in the city of <b>Bulsar</b> (<u>now Valsad</u>) in <b>Gujarat</b>.He had a younger sister, <b><a target="_blank" href="https://celebsuburb.com/inside-the-life-of-kashmira-bulsara-the-younger-sister-of-freddie-mercury/">Kashmira</a></b>.</p>
         </section>
@@ -38,7 +41,7 @@
 
         <!-- FREDDIE'S LIFE -->
         <section id="Freddie's life">
-        <h3>Freddies's life...</h3>
+        <h3 data-animation="slideInDown" data-animation-delay="2">Freddies's life...</h3>
         <dl>
             <dt><b>Born:</b></dt>
             <dd>Farrokh Bulsara <br>
@@ -74,7 +77,7 @@
         </dl>
         <!-- FREDDIE'S CAREER AND EDUCATION -->
         <section id="careerandeducation">
-        <h4>Musical career...</h4>
+        <h4 data-animation="slideInRight" data-animation-delay="1">Musical career...</h4>
         <dl>
             <dt><b>Genres:</b></dt>
             <dd>Rock</dd>
@@ -108,7 +111,7 @@
         </ul>
         </section>
         <!-- FREDDIE'S MOST POPULAR SONGS -->
-
+        <script src="./js/animation.js"></script>
         </main>
     </body>
 </html>

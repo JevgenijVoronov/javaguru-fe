@@ -1,0 +1,93 @@
+.wrap {
+  font-family: "Roboto", sans-serif;
+  width: 1000px;
+  margin: 50px auto;
+  border: solid 1px;
+}
+form {
+  margin: 20px;
+}
+.button {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+.default {
+  border: 1px solid #747474;
+}
+.button:hover {
+  background-color: #9b9a9a;
+}
+
+/**************** Normal size **************/
+
+.button_normal {
+  font-size: 15px;
+  padding: 10px;
+}
+.button_primary {
+  background-color: var(--primary-color);
+}
+.button_danger {
+  background-color: var(--danger-color);
+}
+.button_warning {
+  background-color: var(--warning-color);
+}
+.button_info {
+  background-color: var(--info-color);
+}
+.button_default {
+  background-color: var(--default-color);
+  color: var(--color-black);
+}
+.button_normal__border {
+  border: 1px solid #747474;
+  padding: 9px;
+}
+.button_success {
+  background-color: var(--success-color);
+}
+.button_link {
+  background-color: var(--link-color);
+  color: var(--color-link);
+}
+
+/***************** Large size ****************/
+
+.button_large {
+  font-size: 18px;
+  padding: 15px;
+}
+
+.button_large__border {
+  border: 1px solid #747474;
+  padding: 14px;
+}
+
+/*************** Small size **************/
+
+.button_small {
+  font-size: 14px;
+  padding: 8px;
+}
+
+.button_small__border {
+  border: 1px solid #747474;
+  padding: 7px;
+}
+
+/************** Extra Small size **************/
+
+.button_ExtraSmall {
+  font-size: 13px;
+  padding: 6px;
+}
+
+.button_ExtraSmall__border {
+  border: 1px solid #747474;
+  padding: 5px;
+}

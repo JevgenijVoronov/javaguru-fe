@@ -1,0 +1,57 @@
+.button{
+    border-radius: 4px;
+    padding: 5px 10px;  
+    color: white;
+    border-width: 1px; 
+}
+
+.button_NS{
+    font-size: normal;
+    }
+
+
+.button_LS{
+    font-size: large;
+}
+
+.button_SS{
+    font-size: small;
+}
+
+.button_xSS{
+    font-size: x-small;
+}
+
+.button__primary{
+    background-color: rgb(0, 127, 212);
+    border-color: rgb(0, 127, 212) ;
+}
+
+.button__danger{
+    background-color: rgb(199, 86, 86);
+    border-color: rgb(199, 86, 86);
+}
+
+.button__warming{
+    background-color: rgb(250, 184, 61);
+    border-color: rgb(250, 184, 61);
+}
+
+.button__info{
+    background-color: rgba(22, 178, 240, 0.678);
+    border-color: rgba(22, 178, 240, 0.678);
+}
+
+.button__success{
+    background-color: rgb(2, 189, 2);
+    border-color: rgb(2, 189, 2);
+}
+
+.button__default{
+    color: black;
+}
+
+.button__link{
+    border:0px;
+    color:blue;
+}
