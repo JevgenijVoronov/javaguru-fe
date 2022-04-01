@@ -4,7 +4,7 @@ const data = [
 			"name": 		"Margarita",
 			"price": 		"10",
 			"description": 	"Соус для пиццы, сыр, помидоры, орегано",
-			"imageURL": 	"https://thumb.tildacdn.com/tild3630-3739-4630-b135-636564326335/-/resize/275x/-/format/webp/Margarita-removebg-p.png",
+			"image": 	"https://thumb.tildacdn.com/tild3630-3739-4630-b135-636564326335/-/resize/275x/-/format/webp/Margarita-removebg-p.png",
 			"category": 	"pizza"
 		},
 	
