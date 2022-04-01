@@ -1,11 +1,34 @@
 [
 	{
-		"id": "",
-		"type": "",
-		"name": "",
-		"price": "",
-		"description": "",
-		"imageURL": "",
-		"category": ""
+		"id": "Pizza1",
+		"name": "Маргарита",
+		"price": "10",
+		"description": "тесто, сыр, мясо",
+		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3D%25D0%25BC%25D0%25BE%25D1%2586%25D0%25B0%25D1%2580%25D0%25B5%25D0%25BB%25D0%25BB%25D0%25B0&psig=AOvVaw3IyZLzcp3vq4xHVnfCIYjE&ust=1648823273874000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPiB78bH8PYCFQAAAAAdAAAAABAD",
+		"category": "pizza"
 	},
+	{
+		"id": "Pizza2",
+		"name": "Салями",
+		"price": "10",
+		"description": "тесто, сыр, мясо",
+		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fru%2Ffree-png-hqpel&psig=AOvVaw346714zOHEl-HYVbYvY0px&ust=1648823581479000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPDyttPI8PYCFQAAAAAdAAAAABAD",
+		"category": "pizza"
+	},
+	{
+		"id": "Pizza3",
+		"name": "С Море продуктами",
+		"price": "10",
+		"description": "тесто, сыр, мясо",
+		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fru%2Ffree-png-bjxtw&psig=AOvVaw39ebc60NomlLDKxEKsTmn2&ust=1648823840720000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCKDzh9DJ8PYCFQAAAAAdAAAAABAD",
+		"category": "pizza"
+	},
+	{
+		"id": "Pizza4",
+		"name": "Маргарита",
+		"price": "10",
+		"description": "тесто, сыр, мясо",
+		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3D%25D0%25BC%25D0%25BE%25D1%2586%25D0%25B0%25D1%2580%25D0%25B5%25D0%25BB%25D0%25BB%25D0%25B0&psig=AOvVaw3IyZLzcp3vq4xHVnfCIYjE&ust=1648823273874000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPiB78bH8PYCFQAAAAAdAAAAABAD",
+		"category": "pizza"
+	}
 ]
