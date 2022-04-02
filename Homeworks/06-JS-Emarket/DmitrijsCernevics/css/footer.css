@@ -13,11 +13,6 @@ footer {
 	display: flex;
 	padding-left: 10px;
 }
-.foot-icons {
-	display: block;
-	width: 20px;
-	height: 20px;
-	margin-right: 10px;
 }
 
 .line {
@@ -28,4 +23,23 @@ footer {
 .footer-text {
 	width: 100%;
 	text-align: center;
+}
+.foot-icons {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.facebook {
+	background: url('../social-icons/facebook.svg');
+}
+.twitter {
+	background: url('../social-icons/twitter.svg');
+}
+.instagram {
+	background: url('../social-icons/instagram.svg');
+}
+.tumblr {
+	background: url('../social-icons/tumblr.svg');
 }

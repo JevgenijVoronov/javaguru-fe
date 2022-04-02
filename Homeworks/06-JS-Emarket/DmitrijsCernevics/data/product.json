@@ -1,34 +1,82 @@
 [
 	{
 		"id": "Pizza1",
-		"name": "Маргарита",
+		"name": "Аррива",
 		"price": "10",
-		"description": "тесто, сыр, мясо",
-		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3D%25D0%25BC%25D0%25BE%25D1%2586%25D0%25B0%25D1%2580%25D0%25B5%25D0%25BB%25D0%25BB%25D0%25B0&psig=AOvVaw3IyZLzcp3vq4xHVnfCIYjE&ust=1648823273874000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPiB78bH8PYCFQAAAAAdAAAAABAD",
+		"description": "30 см, 590 г, Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук, томаты, моцарелла, соус ранч, чеснок",
+		"imageURL": "./images/Аррива.jpeg",
 		"category": "pizza"
 	},
 	{
 		"id": "Pizza2",
-		"name": "Салями",
+		"name": "Гавайская",
 		"price": "10",
-		"description": "тесто, сыр, мясо",
-		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fru%2Ffree-png-hqpel&psig=AOvVaw346714zOHEl-HYVbYvY0px&ust=1648823581479000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPDyttPI8PYCFQAAAAAdAAAAABAD",
+		"description": "30 см, 650 г, Ветчина, ананасы, моцарелла, томатный соус",
+		"imageURL": "./images/Гавайская.jpeg",
 		"category": "pizza"
 	},
 	{
 		"id": "Pizza3",
-		"name": "С Море продуктами",
+		"name": "Диабло",
 		"price": "10",
-		"description": "тесто, сыр, мясо",
-		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fru%2Ffree-png-bjxtw&psig=AOvVaw39ebc60NomlLDKxEKsTmn2&ust=1648823840720000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCKDzh9DJ8PYCFQAAAAAdAAAAABAD",
+		"description": "30 см, 740 г, Острая чоризо, острый перец халапеньо, соус барбекю, митболы, томаты, сладкий перец, красный лук, моцарелла, томатный соус",
+		"imageURL": "./images/Диабло.jpeg",
 		"category": "pizza"
 	},
 	{
 		"id": "Pizza4",
-		"name": "Маргарита",
+		"name": "Додо",
 		"price": "10",
-		"description": "тесто, сыр, мясо",
-		"imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3D%25D0%25BC%25D0%25BE%25D1%2586%25D0%25B0%25D1%2580%25D0%25B5%25D0%25BB%25D0%25BB%25D0%25B0&psig=AOvVaw3IyZLzcp3vq4xHVnfCIYjE&ust=1648823273874000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPiB78bH8PYCFQAAAAAdAAAAABAD",
+		"description": "30 см, 740 г, Бекон, митболы, пикантная пепперони, моцарелла, томаты, шампиньоны, сладкий перец, красный лук, чеснок, томатный соус",
+		"imageURL": "./images/Додо.jpeg",
+		"category": "pizza"
+	},
+	{
+		"id": "Pizza5",
+		"name": "Пепперони",
+		"price": "10",
+		"description": "30 см, 580г, Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+		"imageURL": "./images/Пепперони.jpeg",
+		"category": "pizza"
+	},
+	{
+		"id": "Drink1",
+		"name": "Вода",
+		"price": "10",
+		"description": "BonAqua, негазированная, 0,5 л",
+		"imageURL": "./images/Вода.jpeg",
+		"category": "pizza"
+	},
+	{
+		"id": "Drink2",
+		"name": "Кола",
+		"price": "10",
+		"description": "Газированный напиток Coca-cola, 0.5л",
+		"imageURL": "./images/Кола.jpeg",
+		"category": "pizza"
+	},
+	{
+		"id": "Drink3",
+		"name": "Спрайт",
+		"price": "10",
+		"description": "Газированный напиток Sprite, 0.5л",
+		"imageURL": "./images/Спрайт.jpeg",
+		"category": "pizza"
+	},
+	{
+		"id": "Drink4",
+		"name": "Фанта",
+		"price": "10",
+		"description": "Газированный напиток Fanta, 0.5л",
+		"imageURL": "./images/Фанта.jpeg",
+		"category": "pizza"
+	},
+	{
+		"id": "Drink5",
+		"name": "Чай",
+		"price": "10",
+		"description": "FuzeTea Черный с лимоном и лемонграссом, 0,5 л",
+		"imageURL": "./images/Чай.jpeg",
 		"category": "pizza"
 	}
 ]
