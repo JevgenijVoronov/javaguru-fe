@@ -1,6 +1,4 @@
 
-debugger;
-
 // render products based on given categories
 function renderProducts(data) {
 	let productContainer = document.getElementById('product-container');
@@ -27,6 +25,6 @@ function renderProducts(data) {
 }
 
 
-// window.addEventListener("keydown", function (event) {
-//    alert("Вы нажали на кнопку: " + event.key)
-//  })
+window.addEventListener("keydown", function (event) {
+   alert("Вы нажали на кнопку: " + event.key)
+ })
