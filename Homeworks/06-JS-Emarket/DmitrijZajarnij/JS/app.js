@@ -28,3 +28,5 @@ function renderProducts(data) {
 window.addEventListener("keydown", function (event) {
    alert("Вы нажали на кнопку: " + event.key)
  })
+
+ window.onload = renderProducts(data);
