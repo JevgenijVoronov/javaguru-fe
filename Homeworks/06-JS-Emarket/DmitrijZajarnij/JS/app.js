@@ -24,9 +24,10 @@ function renderProducts(data) {
 	);
 }
 
+// document.addEventListener("DOMContentLoaded", function() {        // Example 1 (display menu)
+//    renderProducts(data);
+// });
+ 
+//  window.onload = renderProducts(data);                            // Example 2 (display menu)
 
-window.addEventListener("keydown", function (event) {
-   alert("Вы нажали на кнопку: " + event.key)
- })
-
- window.onload = renderProducts(data);
+document.addEventListener("DOMContentLoaded", renderProducts(data))  // Example 3 (display menu)
