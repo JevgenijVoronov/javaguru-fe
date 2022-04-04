@@ -1,0 +1,9 @@
+@media only screen and (min-width:769px) and (max-width: 1024px){
+	#prod-description {
+		display: none;
+	}
+	.prod-data {
+		justify-content: center;
+	}
+
+}

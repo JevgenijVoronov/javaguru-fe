@@ -1,0 +1,71 @@
+footer {
+	align-content: flex-end;
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+		background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
+.footer-container {
+	display: flex;
+	margin: 15px auto;
+	justify-content: space-between;
+}
+
+.footer-text {
+	width: 100%;
+	text-align: center;
+}
+
+.social {
+	display: flex;
+	padding-left: 10px;
+}
+
+.foot-icons-facebook {
+	background-image: url(../../social-icons/facebook.svg);
+	background-color: lightblue;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px 3px #6c6565;
+}
+
+.foot-icons-twitter {
+	background-image: url(../../social-icons/twitter.svg);
+	background-color: lightblue;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px 3px #6c6565;
+}
+
+.foot-icons-instagram {
+	background-image: url(../../social-icons/instagram.svg);
+	background-color: #f436b1;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px 3px #6c6565;
+}
+
+.foot-icons-tumblr {
+	background-image: url(../../social-icons/tumblr.svg);
+	background-color: #6f79e4;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px 3px #6c6565;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: rgb(59, 59, 59);
+}
