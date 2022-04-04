@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    justify-content:end;
+    height:60px;
+    justify-content: right;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.header_1 {
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+
+.header_1 a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header_1 a:hover {
+    color: rgb(240, 13, 119);
+    box-shadow: 0 0 20px white;
+    background-color:white;
+}
+
+
+
+
+    

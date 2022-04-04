@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size:70%;
+
+}
+
+body{
+    font-size: 1rem;
+    font-weight:bold;
+    background-color: black;
+    position:absolute;
+    z-index: -1;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 40px 0;
+    font-size: 3.5em;
+    text-align: center;
+    color: blue;
+    font-family:'Cinzel', serif;
+}
+p{
+    font-family: cursive;
+    color:white;
+    font-size:1.5rem;
+    padding:20px 0;
+    font-family:'Cinzel', serif;
+}
+ul li{
+    color:white;
+    font-family:'Cinzel', serif;
+    padding: 20px 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+#Eventsandlife{
+    text-align: center;
+}
+
+
+
+
