@@ -1,6 +1,6 @@
 
-// render products based on given categories
-function renderProducts(data) {
+
+function renderProducts(data, filter) {
 	let productContainer = document.getElementById('product-container');
 	productContainer.innerHTML = "";
 	data.forEach(item => {
@@ -24,10 +24,31 @@ function renderProducts(data) {
 	);
 }
 
+function getAll() {
+   window.onload = renderProducts(data, "all");
+}
+
+function getPizza() {
+   window.onload = renderProducts(data, "pizza");
+}
+
+function getDrinks() {
+   renderProducts(data, "drinks");
+}
+
+function getProducts() {
+
+}
+
+function getIngredients() {
+
+}
+
+
 // document.addEventListener("DOMContentLoaded", function() {        // Example 1 (display menu)
 //    renderProducts(data);
 // });
  
 //  window.onload = renderProducts(data);                            // Example 2 (display menu)
 
-document.addEventListener("DOMContentLoaded", renderProducts(data))  // Example 3 (display menu)
+document.addEventListener("DOMContentLoaded", renderProducts(data,))  // Example 3 (display menu)
