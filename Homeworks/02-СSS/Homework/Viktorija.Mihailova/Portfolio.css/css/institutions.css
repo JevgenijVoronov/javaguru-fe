@@ -1,0 +1,11 @@
+#institutions h2{
+    text-align: center;
+    background-color:black;
+    padding: 40px;
+    padding:20px;
+    box-shadow:0 0 20px blue;
+}
+#institutions ul li{
+    font-size: 20px;
+    text-align: center;
+}

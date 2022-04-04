@@ -1,0 +1,64 @@
+.main {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-image: url(../pictures/3.jpg);
+    background-position:60px 20px; 
+    background-size:cover;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*padding-bottom: 70px ;*/
+    align-content: flex-end;  
+
+}
+
+
+
+.main__title,.main__contactbtn{ font-size: 5rem;
+    color:white;
+    text-align:left;
+    font-family: 'Cinzel', serif;
+    
+} 
+
+
+
+
+.main__contactbtn {
+   
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow:0px 0 20px white;
+    font-family: 'Bebas Neue', cursive;   
+    font-size:3rem;
+}
+
+
+
+
+.main__contactbtn:hover {
+    color: black;
+    background-color: white;
+    border-color: blue;
+}
+
+
+
+
+
+
+
+
+/*.round{
+   /* width: 300px; height: 300px; /* Ширина и высота */
+  /* border-radius: 50% ; /* Превращаем в круг */
+   /*border: 5px solid #46344E;
+   background: center, url(../pictures/4.jpg) ; /* Параметры фона */
+  /* background-size: auto 200px; 
+background-size: contain;
+opacity: 0.7;
+filter: alpha(opacity=70);
+  
+}*/
