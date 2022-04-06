@@ -1,0 +1,75 @@
+.one {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.two {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.three {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.four {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.five {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.six {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.seven {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.eight {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.nine {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 3px;
+    box-shadow: 2px 2px 4px 0px;
+}
+
+.numbers {
+    display: flex;
+}

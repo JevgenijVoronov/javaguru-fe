@@ -1,0 +1,43 @@
+.plus {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.minus {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.multiply {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.divide {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.window {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
