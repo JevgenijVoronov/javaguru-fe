@@ -6,6 +6,7 @@
     background-color: white;
     color: red;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .minus {
@@ -16,6 +17,7 @@
     background-color: white;
     color: red;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .multiply {
@@ -26,6 +28,7 @@
     background-color: white;
     color: red;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .divide {
@@ -36,6 +39,7 @@
     background-color: white;
     color: red;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .ce {
@@ -47,6 +51,7 @@
     color: red;
     font-size: 25px;
     font-style: italic;
+    cursor: pointer;
 }
 
 .equal {
@@ -57,6 +62,7 @@
     background-color: white;
     color: red;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .screen {
