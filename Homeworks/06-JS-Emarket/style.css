@@ -438,8 +438,8 @@ table {
 	#prod-title {
 		text-align: center;
 	}
-	#prod-description {
-		display: none;
+	/* #prod-description {
+		display: none; */
 	}
 	.card {
 		width: 300px;

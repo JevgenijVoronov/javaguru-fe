@@ -1,0 +1,72 @@
+header {
+	position: fixed;
+	width: 100%;
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+	background: linear-gradient(to right, #ACB6E5, #74ebd5);
+	display: flex;
+	flex-direction: row;
+	z-index: 999;
+}
+nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+.nav-link {
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+.nav-link > ul {
+	display: flex;
+	align-items: center;
+}
+.nav-item {
+	margin-right: 15px;
+}
+.nav-item > a {
+	display: inline-block;
+	padding-bottom: 2px;
+	position: relative;
+}
+.nav-item > a:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: rgb(59, 59, 59);
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+.nav-item > a:hover:after {
+	width: 100%;
+	left: 0;
+}
+.active a::after {
+	width: 100%;
+	left: 0;
+}
+#basket::after {
+	content: var(count);
+	position: absolute;
+	padding: 3px;
+	font-size: 12px;
+	top: 8px;
+}
+.logo {
+	align-content: flex-start;
+	padding: 10px 10px 12px 10px;
+	font-weight: 800;
+	font-size: 1.5em;
+	align-content: center;
+}
+
+.icon {
+	position: relative;
+	top: 3px;
+}
+

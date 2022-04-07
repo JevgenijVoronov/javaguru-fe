@@ -1,0 +1,36 @@
+footer {
+	align-content: flex-end;
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+		background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
+.footer-container {
+	display: flex;
+	margin: 15px auto;
+	justify-content: space-between;
+}
+div[class^="foot-col"] {
+	display: flex;
+	align-items: center;
+}
+
+.social {
+	display: flex;
+	padding-left: 10px;
+}
+.foot-icons {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: rgb(59, 59, 59);
+}
+.footer-text {
+	width: 100%;
+	text-align: center;
+}
+
