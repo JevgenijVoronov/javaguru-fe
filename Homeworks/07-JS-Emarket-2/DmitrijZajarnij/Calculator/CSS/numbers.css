@@ -1,75 +1,96 @@
-.one {
-    width: 35px;
-    height: 35px;
+
+.zero {
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
+}
+
+.one {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
 }
 
 .two {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .three {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .four {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .five {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .six {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .seven {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .eight {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .nine {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    margin: 3px;
-    box-shadow: 2px 2px 4px 0px;
+    margin: 5px;
+    background-color: white;
 }
 
 .numbers {
-    display: flex;
+    font-family: Arial;
+    margin: 50px auto;
+    text-align: center;
+    padding: 40px;
+    grid-gap: 0px;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #80838b;
+    width: 225px;
+    height: 370px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    box-shadow: 4px 4px 4px #95939bfa;
 }
