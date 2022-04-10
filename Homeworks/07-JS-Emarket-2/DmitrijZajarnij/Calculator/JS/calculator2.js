@@ -1,5 +1,5 @@
 ce();
-one();
+one = document.getElementsByClassName('one');
 two();
 three();
 four();
@@ -23,9 +23,11 @@ function ce() {
 }
 
 function one() {
-    if(document.numbers === one)
-    out.textContent = one;
+    if(document.getElementsByClassName('one') === one)
+    return one;
 }
+
+alert(one);
 
 function two() {
     if(document.numbers === two)
@@ -34,11 +36,6 @@ function two() {
 
 function three() {
     if(document.numbers === three)
-    return;
-}
-
-function one() {
-    if(document.numbers === one)
     return;
 }
 
@@ -102,4 +99,4 @@ function equal() {
     return;
 }
 
-window.onload = document.querySelector('numbers');
+// window.onload = document.querySelector('numbers');
