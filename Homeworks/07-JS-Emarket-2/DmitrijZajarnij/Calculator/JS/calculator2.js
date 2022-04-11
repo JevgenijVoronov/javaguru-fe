@@ -1,5 +1,5 @@
 ce();
-one = document.getElementsByClassName('one');
+one();
 two();
 three();
 four();
@@ -15,19 +15,17 @@ multiply();
 divide();
 equal();
 
-const out = document.querySelector('.screen p');
-
 function ce() {
     if(document.numbers === ce)
     return;
 }
 
 function one() {
-    if(document.getElementsByClassName('one') === one)
+    let one = document.getElementsByClassName('.one');
     return one;
 }
+console.log(one);
 
-alert(one);
 
 function two() {
     if(document.numbers === two)
@@ -99,4 +97,4 @@ function equal() {
     return;
 }
 
-// window.onload = document.querySelector('numbers');
+// window.onload = document.getElementsByClassName('.numbers');
