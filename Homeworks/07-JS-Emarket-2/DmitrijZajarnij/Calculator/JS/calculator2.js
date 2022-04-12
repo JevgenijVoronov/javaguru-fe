@@ -1,100 +1,17 @@
-ce();
-one();
-two();
-three();
-four();
-five();
-six();
-seven();
-eight();
-nine();
-zero();
-plus();
-minus();
-multiply();
-divide();
-equal();
+const numbers = document.querySelectorAll('.btn')
+const result = document.querySelector('.screen')
+const action = document.querySelector('plus', 'minus', 'divide', 'multiply', 'equal', 'ce')
 
-function ce() {
-    if(document.numbers === ce)
-    return;
+for(number in numbers) {
+    numbers[number].onclick = function (e) {
+        const inputValue = e.target.innerText;
+        printValue(inputValue);
+    }
 }
 
-function one() {
-    let one = document.getElementsByClassName('.one');
-    return one;
-}
-console.log(one);
-
-
-function two() {
-    if(document.numbers === two)
-    return;
+function printValue(dima) {
+    result.innerHTML += dima;
 }
 
-function three() {
-    if(document.numbers === three)
-    return;
-}
-
-function four() {
-    if(document.numbers === four)
-    return;
-}
-
-function five() {
-    if(document.numbers === five)
-    return;
-}
-
-function six() {
-    if(document.numbers === six)
-    return;
-}
-
-function seven() {
-    if(document.numbers === seven)
-    return;
-}
-
-function eight() {
-    if(document.numbers === eight)
-    return;
-}
-
-function nine() {
-    if(document.numbers === nine)
-    return;
-}
-
-function zero() {
-    if(document.numbers === zero)
-    return;
-}
-
-function plus() {
-    if(document.numbers === plus)
-    return;
-}
-
-function minus() {
-    if(document.numbers === minus)
-    return;
-}
-
-function multiply() {
-    if(document.numbers === multiply)
-    return;
-}
-
-function divide() {
-    if(document.numbers === divide)
-    return;
-}
-
-function equal() {
-    if(document.numbers === equal)
-    return;
-}
 
 // window.onload = document.getElementsByClassName('.numbers');

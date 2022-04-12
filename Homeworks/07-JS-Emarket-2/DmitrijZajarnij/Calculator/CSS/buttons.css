@@ -76,12 +76,12 @@
     padding-top: 10px;
     display: grid;
     justify-items: end;
-    align-items: end;
     box-shadow: 4px 4px 4px #95939bfa;
+    font-size: 3rem;
 }
 
 .screen p {
     text-align: right;
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 10px;
 }
