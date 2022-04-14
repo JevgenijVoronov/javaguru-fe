@@ -33,9 +33,21 @@ function tempate(item){
 // ---------FILTER-------------
 function filter(filter){
    renderProducts (data, filter)
-   //-------Active class---------
-   
-   document.getElementById(`cat-${filter}`).classList.add('active')
+  
+  // document.getElementById(`cat-${filter}`).classList.add('active')
+
+   }
+//----------------Active Menu------------
+   // Add active class to the current button / https://html5css.ru/howto/howto_js_active_element.php
+
+   let btns = document.getElementsByClassName("nav-item"); // обащаемя к .nav-item
+
+   for (let i = 0; i < btns.length; i++) {
+     btns[i].addEventListener("click", function() {
+       let current = document.getElementsByClassName("active");
+       current[0].className = current[0].className.replace(" active", "");
+       this.className += " active";
+     });
    }
 
 document.addEventListener("DOMContentLoaded", renderProducts(data))
