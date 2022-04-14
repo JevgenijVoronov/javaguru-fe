@@ -12,38 +12,38 @@
 <body>
     <div class="container">
         <div class="screen">
-        <output class="result"></output>
-    </div>
+            <div class="result"></div>
+        </div>
         <div class="buttons">
             <div class="btn on"><span>On/Off</span></div>
-            <div class="btn arrow"><span>&larr;</span></div>
-            <div class="btn percent"><span>%</span></div>
+            <div class="btn arrow" onclick="back()"><span>&larr;</span></div>
+            <div class="btn percent" onclick="percent()"><span>%</span></div>
             <div class="btn plus_minus"><span>+/-</span></div>
 
-            <div class="btn reset"><span>C</span></div>
-            <div class="btn bkt-1"><span>(</span></div>
-            <div class="btn bkt-2"><span>)</span></div>
-            <div class="btn divide"><span>/</span></div>
+            <div class="btn reset" onclick="reset()"><span>C</span></div>
+            <div class="btn bkt-1" onclick="insert('(')"><span>(</span></div>
+            <div class="btn bkt-2" onclick="insert(')')"><span>)</span></div>
+            <div class="btn divide" onclick="insert('/')"><span>&divide;</span></div>
 
-            <div class="btn seven"><span class="brt_result">7</span></div>
-            <div class="btn eight"><span>8</span></div>
-            <div class="btn nine"><span>9</span></div>
-            <div class="btn multiply"><span>*</span></div>
+            <div class="btn seven" onclick="insert('7')"><span>7</span></div>
+            <div class="btn eight" onclick="insert('8')"><span>8</span></div>
+            <div class="btn nine" onclick="insert('9')"><span>9</span></div>
+            <div class="btn multiply" onclick="insert('*')"><span>&times;</span></div>
 
-            <div class="btn four"><span>4</span></div>
-            <div class="btn five"><span>5</span></div>
-            <div class="btn six"><span>6</span></div>
-            <div class="btn minus"><span>-</span></div>
+            <div class="btn four" onclick="insert('4')"><span>4</span></div>
+            <div class="btn five" onclick="insert('5')"><span>5</span></div>
+            <div class="btn six" onclick="insert('6')"><span>6</span></div>
+            <div class="btn minus" onclick="insert('-')"><span>-</span></div>
 
-            <div class="btn one"><span>1</span></div>
-            <div class="btn two"><span>2</span></div>
-            <div class="btn three"><span>3</span></div>
-            <div class="btn plus"><span>+</span></div>
+            <div class="btn one" onclick="insert('1')"><span>1</span></div>
+            <div class="btn two" onclick="insert('2')"><span>2</span></div>
+            <div class="btn three" onclick="insert('3')"><span>3</span></div>
+            <div class="btn plus" onclick="insert('+')"><span>+</span></div>
 
-           
-            <div class="btn zero"><span>0</span></div>
-            <div class="btn point"><span>.</span></div>
-            <div class="btn equals"><span>=</span></div>
+
+            <div class="btn zero" onclick="insert('0')"><span>0</span></div>
+            <div class="btn point" onclick="insert('.')"><span>.</span></div>
+            <div class="btn equals" onclick="equals()"><span>=</span></div>
         </div>
     </div>
     <script src="main.js"></script>
