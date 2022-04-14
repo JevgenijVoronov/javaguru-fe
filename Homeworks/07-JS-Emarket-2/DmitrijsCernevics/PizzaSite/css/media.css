@@ -1,0 +1,87 @@
+/*iphone SE to mid-reange*/
+@media only screen and (max-width:768px){
+	.container{
+		width: 100%;
+	}
+	.nav-link {
+		padding: 0px;
+	}
+	.nav-item {
+		margin-right: 8px;
+		font-size: 14px;
+	}
+	#prod-title {
+		text-align: center;
+	}
+	#prod-description {
+		display: none;
+	}
+	.card {
+		width: 300px;
+		margin: 30px auto;
+	}
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.foot-col-newsletter {
+		width: 100%;
+	}
+
+	div[class^="foot-col"] {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.product-item {
+		flex-direction: column;
+		margin-bottom: 5px;
+	}
+	.prod-data {
+		align-items: center;
+		height: unset;
+	}
+	.cart-btn{
+		display: unset;
+		align-self: unset;
+		text-align: center;
+	}
+	.flex-container {
+		margin: 0px 10px;
+	}
+	.cart-prod-data {
+		flex-direction: column;
+		justify-content: unset;
+		height: unset;
+	}
+	#cart-prod-title {
+		width: unset;
+		text-align: center;
+	}
+	.remove-cart-btn {
+		margin: unset;
+	}
+	.prod-image {
+		flex: 0 0 200px;
+	}
+}
+/* ipads and tablets */
+@media only screen and (min-width:769px) and (max-width: 1024px){
+	#prod-description {
+		display: none;
+	}
+	.prod-data {
+		justify-content: center;
+	}
+
+}
+/* laptops with mdpi screens */
+@media only screen and (min-width:1025px) and (max-width: 1500px){
+	body {
+		font-size: 0.8rem;
+	}
+	.container {
+		width: 90%;
+	}
+}

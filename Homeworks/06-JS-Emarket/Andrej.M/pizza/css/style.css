@@ -73,7 +73,7 @@ nav {
   padding-bottom: 2px;
   position: relative;
 }
-/* .nav-item > a:after {
+.nav-item > a:after {
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
 	content: "";
@@ -84,16 +84,16 @@ nav {
 	background: rgb(59, 59, 59);
 	transition: width 0.3s ease 0s, left 0.3s ease 0s;
 	width: 0;
-} */
-/* .nav-item > a:hover:after {
+} 
+.nav-item > a:hover:after {
 	width: 100%;
 	left: 0;
 }
 .active a::after {
 	width: 100%;
 	left: 0;
-} */
-/* #basket::after {
+} 
+#basket::after {
 	content: var(count);
 	position: absolute;
 	padding: 3px;

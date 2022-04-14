@@ -15,9 +15,7 @@ body{
                 inset -6px -6px 15px rgba(0, 0, 0, 0.6),
                 inset 6px 6px 15px rgba(0, 0, 0, 0.6);
 }
-input{
-    border: none;
-}
+
 .screen{
     height: 110px;
     width: 93%;
