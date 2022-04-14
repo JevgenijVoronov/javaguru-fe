@@ -36,6 +36,19 @@
 	<main class="container">
 		<div class="welcome-text"><h3 id="welcome-text">Магазин</h3></div>
 
+
+			<div class="category-bar">
+				<div class="nav-link center">
+					<ul>
+						<li id="cat-all" class="nav-item"><a onclick="getAll('all')">Все</a></li>
+						<li id="cat-pizza" class="nav-item" ><a onclick="getPizza('pizza')">Пиццы</a></li>
+						<li id="cat-drinks" class="nav-item"><a onclick="getDrinks('drinks')">Напитки</a></li>
+						<li id="cat-description" class="nav-item"><a onclick="getDescription('description')">Продукты</a></li>
+						<li id="cat-ingredients" class="nav-item"><a onclick="getIngredients('ingredients')">Ингредиент</a></li>
+					</ul>
+				</div>
+			</div>
+
 		<div class="flex-container">
 			<div class="product-list-container" id="product-container"></div>
 		</div>
@@ -71,8 +84,8 @@
 		</div>
 	</footer>
 	<!-- footer end -->
-	<script src="../JS/app.js"></script>
 	<script src="../JS/data.js"></script>
+	<script src="../JS/app.js"></script>
 </body>
 
 </html>
