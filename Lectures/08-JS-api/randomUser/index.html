@@ -6,15 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random User - API</title>
     <link rel="stylesheet" href="style.css">
-    <!-- font awesome icons -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 <body>
-    
-    <div class = "container">
-        <button type="button" id ="generate-btn">Generate User</button>
+    <div class="container">
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="gender"> Gender</label>
+            <select name="gen" id="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>count</legend>
+            <label for="count">count</label>
+            <select name="cou" id="count">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </fieldset> 
+
+        <fieldset>
+            <legend>Nationality</legend>
+            <label for="nationality">Select Nationality</label>
+            <select name="nat" id="nationality">
+                <option value="AU">AU</option>
+                <option value="US">US</option>
+                <option value="FRONTEND">FRONEND</option>
+            </select>
+        </fieldset>
+
+        <button id="generate-btn" type="button" >Generate User</button>
         <div class="cards">
-            
+
         </div>
     </div>
 

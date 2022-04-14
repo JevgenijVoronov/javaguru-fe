@@ -1,34 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-*{
+* {
     padding: 0;
     margin: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-:root{
+:root {
     --sky-blue: #0fcdef;
     --dark-blue: #162b4e;
     --grey: #babcc2;
     --light-blue: #f8f9ff;
 }
-html{
+html {
     font-size: 10px;
 }
-body{
+body {
     font-size: 1.6rem;
-    font-family: "Poppins", sans-serif;
     background-color: var(--light-blue);
     min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .container{
     max-width: 1200px;
@@ -167,7 +164,7 @@ body{
 .user-contact-info span{
     color: var(--dark-blue);
 }
-#generate-btn{
+#generate-btn {
     background-color: var(--dark-blue);
     color: #fff;
     font-family: inherit;
