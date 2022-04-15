@@ -1,0 +1,116 @@
+
+.zero {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.one {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.two {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.three {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.four {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.five {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.six {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.seven {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.eight {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.nine {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.numbers {
+    font-family: Arial;
+    margin: 50px auto;
+    text-align: center;
+    padding: 40px;
+    grid-gap: 0px;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #80838b;
+    width: 240px;
+    height: 240px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    box-shadow: 4px 4px 4px #95939bfa;
+}

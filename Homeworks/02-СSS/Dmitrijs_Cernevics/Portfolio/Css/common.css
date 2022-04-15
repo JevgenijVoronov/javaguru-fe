@@ -1,21 +1,21 @@
-@import url(../Fonts/);
+/* @import url(../Fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 
 html {
-    font-family: 'Kufam', sans-serif;
+    font-family: 'Kufam', sans-serif; */
 }
 body {
-    /* background-image: url(../back.jpg); */
-    background-repeat: no-repeat;
+
     background-size: cover;
 }
 
 h2 {
     padding: 20px 20px;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
-    color: var(--main-color);
+    color: yellow;
+    /* color: var(--text-color); */
 }
 
 p {
-    color: var(--text-color);
+    color: var(--white-color);
 }

@@ -1,0 +1,213 @@
+/* header, body and footer start*/
+
+@import url(./media\(ipads\ and\ tablets\).css);
+@import url(./media\(iphone\ SE\ to\ mid-reange.css);
+@import url(./media\(laptops\ with\ mdpi\ screens\).css);
+@import url(./common.css);
+@import url(./header.css);
+@import url(./navigation.css);
+@import url(./main.css);
+@import url(./cart.css);
+@import url(./footer.css);
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+.auth-main {
+	margin: auto !important;
+}
+
+.active a::after {
+	width: 100%;
+	left: 0;
+}
+#basket::after {
+	content: var(count);
+	position: absolute;
+	padding: 3px;
+	font-size: 12px;
+	top: 8px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-input {
+	margin: 10px 0px;
+	border-bottom: 1px solid #ccc;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 10px 0px;
+	font-size: 18px;
+}
+.select {
+	background-color: #fff;
+	color: gray;
+}
+.hint-text {
+	color: rgb(170, 170, 170);
+}
+.btn {
+	width: auto;
+	margin: 15px 0px;;
+	padding: 10px 25px;
+	background: linear-gradient( 68.1deg,  rgba(61,114,180,1) 5.8%, rgb(54, 66, 85) 98.1% );
+	border-radius: 3px;
+	border: none;
+	color: #eee;
+	cursor: pointer;
+}
+.btn:hover {
+	background: linear-gradient( 68.1deg,  rgb(48, 91, 143) 5.8%, rgb(38, 46, 59) 98.1% );
+	transition: ease 300ms;
+}
+
+
+
+
+
+div[class^="foot-col"] {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.foot-input {
+	background: transparent;
+	border: 1px solid rgb(59, 59, 59);
+	margin-left: 10px;
+	padding: 5px 5px 5px 8px;
+	border-radius: 50px;
+}
+
+/* header, body and footer ends */
+
+/* product-listing start */
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	padding: 10px 0px;
+}
+
+.sidebar-card {
+	flex: 1;
+	border: 1px solid #eee;
+	height: 1024px;
+}
+
+
+.category-bar {
+	height: 40px;
+	border: 1px solid #eee;
+	box-shadow: 0 0px 2px #ccc;
+	border-radius: 5px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.center {
+	display: flex;
+}
+.bottom-cta {
+	margin: 15px 0px;
+	text-align: center;
+}
+
+.cta {
+	margin: 0px 5px;
+}
+.side-title {
+	padding: 5px;
+}
+
+.edit-quant {
+	display: flex;
+}
+.edit-count-btn {
+	background-color: transparent;
+	border: none;
+	padding-top: 7px;
+	margin: 0px 5px;
+	cursor: pointer;
+}
+.quant-input {
+	background-color: lightgray;
+	padding: 0px 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 20px
+}
+
+.delete-btn {
+	background-color: transparent;
+	border:none;
+	color: rgb(197, 38, 38);
+	cursor: pointer;
+	padding: 5px;
+}
+.vertical-space {
+	width: 100%;
+	height:20px;
+}
+
+#prod-title {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 5px 0px;
+}
+#prod-price, #cart-prod-price {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 5px 0px;
+	color: rgb(194, 91, 32);
+}
+
+
+#quantity {
+	width: 45px;
+	margin: 0;
+}
+.checkout{
+	display: flex;
+	flex-direction: column;
+}
+
+table {
+	background-color: lightgray;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+}
+.t-Head{
+	font-weight: 600;
+	padding: 2px 5px;
+}
+.t-row {
+	padding: 5px;
+}
+
+.total-container {
+	width: 100%;
+	text-align: right;
+}
+.total-container > span {
+	padding: 10px;
+	display: inline-block;
+}
+.input-textarea {
+	width: calc(100% - 20px);
+	background-color: rgb(241, 241, 241);
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+
+}

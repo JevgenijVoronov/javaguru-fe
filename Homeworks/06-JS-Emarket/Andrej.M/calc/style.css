@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(88, 88, 88);
+}
+.container{
+    margin: 70px auto;
+    width: 350px;
+    height: 645px;
+    background: #333;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.3),
+                10px 10px 70px rgba(0, 0, 0, 0.3),
+                inset -6px -6px 15px rgba(0, 0, 0, 0.6),
+                inset 6px 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+.screen{
+    height: 110px;
+    width: 93%;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    line-height: 120px;
+    color: black;
+    background-color: #a7af7c;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+    margin: 5px;
+    user-select: none;
+    
+}
+.result{
+    font-size: 70px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-areas: 
+    "on arrow plus_minus percent"
+    "reset bkt-1 bkt-2 divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero point equals equals";
+    justify-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.btn{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    margin: 7px;
+    background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+                inset 0 -8px 0 rgba(0, 0, 0, 0.25),
+                0 0 0 1.5px rgba(0, 0, 0, 0.75),
+                10px 20px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    right: 8px;
+    bottom: 13px;
+    background: linear-gradient(90deg, #2d2d2d, #525252);
+    border-radius: 5px;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.1),
+                 10px 5px 10px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid #0004;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    border-top: 1px solid #0004;
+
+
+}
+span{
+    position: relative;
+}
+
+.equals{
+    grid-area: equals;
+    width: 91%;
+}
+.btn:hover{
+    filter: brightness(90%);
+}
+.btn:active{
+    filter: brightness(80%);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+                inset 0 -5px 0 rgba(0, 0, 0, 0.25),
+                0 0 0 1.5px rgba(0, 0, 0, 0.75),
+                10px 20px 25px rgba(0, 0, 0, 0.4);    
+    line-height: 68px;
+}
+.btn:active::before{
+    top: 6px;
+    bottom: 10px;
+}
+
+.reset{
+    background: #f00;
+}
+.reset::before{
+    background: linear-gradient(90deg, #d20000, #d0d0d05c);
+    border-left: 1px solid rgba(255, 255, 255, 0.121);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.121);
+    border-top: 1px solid rgba(255, 255, 255, 0.121);
+}
+
+.equals{
+    background: #2196f3;
+}
+.equals::before{
+    background: linear-gradient(90deg, #1479c9, #d0d0d01d);
+    border-left: 1px solid rgba(255, 255, 255, 0.121);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.121);
+    border-top: 1px solid rgba(255, 255, 255, 0.121);
+}
+
+.divide,.multiply,.minus,.plus{
+    background: #fd9d0c;
+}
+.divide::before,.multiply::before,.minus::before,.plus::before{
+    background: linear-gradient(90deg, #fd9800, #c8c8c85c);
+    border-left: 1px solid rgba(255, 255, 255, 0.121);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.121);
+    border-top: 1px solid rgba(255, 255, 255, 0.121);
+}
+.on{
+    font-size: 13px;
+    font-weight: 600;
+    color: red;
+}
+
