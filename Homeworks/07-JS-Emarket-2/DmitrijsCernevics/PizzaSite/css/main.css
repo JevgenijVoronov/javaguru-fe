@@ -84,3 +84,63 @@ main {
 	font-weight: 400;
 	letter-spacing: 0.5px;
 }
+.auth-main {
+	margin: auto !important;
+}
+.container {
+	width: 70%;
+	margin: auto;
+}
+.card {
+	margin: 10px auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 2px #ccc;
+	border-radius: 5px;
+}
+
+.card-title {
+	margin: 10px auto;
+}
+
+.card-content {
+	width: 90%;
+	padding: 10px;
+}
+.sidebar-card {
+	flex: 1;
+	border: 1px solid #eee;
+	height: 1024px;
+}
+.card {
+	width: 300px;
+	margin: 30px auto;
+}
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+.form-input {
+	margin: 10px 0px;
+	border-bottom: 1px solid #ccc;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 10px 0px;
+	font-size: 18px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+.select {
+	background-color: #fff;
+	color: gray;
+}

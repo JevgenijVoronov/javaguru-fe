@@ -119,17 +119,31 @@ function template(item) { // новая функция tamplate переназы
         `
 }
 
-function getAll() {
-	renderProducts(data, 'all'); // при вызове этой функции getAll = filter
-}
+// function getAll() {
+// 	renderProducts(data, 'all'); // при вызове этой функции all = filter
+// 	document.getElementById('cat-pizza').classList.remove('active');
+// 	document.getElementById('cat-drinks').classList.remove('active');
+// 	document.getElementById('cat-all').classList.add('active');
+// }
 
-function getPizza() {
-	renderProducts(data, 'pizza'); // при вызове этой функции pizza = filter
-}
+// function getPizza() {
+// 	renderProducts(data, 'pizza'); // при вызове этой функции pizza = filter
+// 	document.getElementById('cat-all').classList.remove('active');
+// 	document.getElementById('cat-drinks').classList.remove('active');
+// 	document.getElementById('cat-pizza').classList.add('active');
+// }
 
-function getDrinks() {
-	renderProducts(data, 'drinks'); // при вызове этой функции drinks = filter
-}
+// function getDrinks() {
+// 	renderProducts(data, 'drinks'); // при вызове этой функции drinks = filter
+// 	document.getElementById('cat-all').classList.remove('active');
+// 	document.getElementById('cat-pizza').classList.remove('active');
+// 	document.getElementById('cat-drinks').classList.add('active');
+// }
 
+function filter(filter) {
+	renderProducts(data, filter); // при вызове этой функции filter = filter
+	// document.getElementsByClassName('nav-item').classList.remove('active');
+	document.getElementById(`cat-${filter}`).classList.add('active');
+}
 // debugger;
 document.addEventListener("DOMContentLoaded", renderProducts(data));
