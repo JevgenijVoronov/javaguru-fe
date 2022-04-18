@@ -12,12 +12,4 @@ function printValue(dima) {
     result.innerHTML += dima;
 }
 
-for (ce in numbers){
-    numbers[ce] = function () {
-        if (result.innerHTML === ce) {
-            result.innerHTML = '';
-        }
-    }
-}
-
 // window.onload = document.getElementsByClassName('.numbers');
