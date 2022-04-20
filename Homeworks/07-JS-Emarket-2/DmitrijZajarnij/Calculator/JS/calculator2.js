@@ -1,6 +1,5 @@
 const numbers = document.querySelectorAll('.btn')
 const result = document.querySelector('.screen')
-const clear = document.querySelector('.screen')
 
 for(number in numbers) {
     numbers[number].onclick = function (e) {
@@ -12,6 +11,5 @@ for(number in numbers) {
 function printValue(dima) {
     result.innerHTML += dima;
 }
-
 
 // window.onload = document.getElementsByClassName('.numbers');

@@ -1,0 +1,118 @@
+<div class = "card">
+    <div class = "card-head">
+        <a href = "#"><i class = "fas fa-envelope"></i> Email</a>
+        <div class = "user-image">
+            <img src= "images/profile-img.jpg" alt = "">
+        </div>
+    </div>
+
+    <div class = "card-body">
+        <div class = "user-post-address">
+            <div>
+                <span>9545</span><span>Street Address</span>
+            </div>
+            <div>
+                <span>20054</span><span>Postcode</span>
+            </div>
+            <div>
+                <span>Esplanadi</span><span>Street Name</span>
+            </div>
+        </div>
+
+        <div class = "user-name">
+            <span class = "user-name-title">Mr.</span>
+            <span class = "user-name-full">Helen Anttila,</span>
+            <span class = "user-age">34</span>
+        </div>
+
+        <div class = "user-location-address">
+            <span>Kouvola, Satakunta, Finland</span>
+        </div>
+    </div>
+
+    <div class = "card-foot">
+        <div class = "user-contact-info">
+            <span>
+                <i class = "fas fa-phone"></i> 07-567-990
+            </span>
+            <span>
+                <i class = "fa-solid fa-mobile-button"></i> 044-391-36-63
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+<fieldset>
+    <legend>gender</legend>
+    <label for="gender">select gender</label>
+    <input list="gender" id="gender" name="gender">
+    <datalist id="gender">
+      <option value="male">
+      <option value="female">
+    </datalist>
+</fieldset>
+
+
+
+<!-- <fieldset>
+    <legend>Nationality</legend>
+    <label for="nationality">Select Nationality</label>
+    <select name="nat" id="nationality">
+        <option value="AU">AU</option>
+        <option value="US">US</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend>Gender</legend>
+    <label for="gender"> Gender</label>
+    <select name="gen" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend>count</legend>
+    <label for="count">count</label>
+    <select name="cou" id="count">
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select>
+</fieldset> -->
+
+
+
+
+<!-- const apiURL = 'https://randomuser.me/api/'
+
+function fetchFromAPI () {
+    const nationality = document.getElementById('nationality').value
+    const gender = document.getElementById('gender').value
+    const count = document.getElementById('count')?.value
+
+    let url = new URL(apiURL);
+    // let params = {
+    //     nat: nationality,
+    //     gender: gender,
+    //     results: count,
+    // }
+
+
+    let params = {}
+    gender ? params.gender = gender : null;
+    count ? params.count = count : null;
+
+    url.search = new URLSearchParams(params).toString();
+    fetch(url)
+}
+
+
+
+
+
+document.getElementById('generate-btn').addEventListener('click', () => {
+    fetchFromAPI();
+}); -->
