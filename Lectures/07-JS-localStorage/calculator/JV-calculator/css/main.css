@@ -1,5 +1,5 @@
 body {
-    background-color: #15171d;
+    background-color: lightgray;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -16,7 +16,7 @@ div.calculator {
 
 div.output {
     width: 94%;
-    background-color: #ddd;
+    background-color: white;
     font-size: 32px;
     color: #333;
     text-align: right;
@@ -26,18 +26,19 @@ div.output {
 }
 
 div.btn {
-    width: 22%;
+    width: 110px;
     background-color: #555;
     font-size: 20px;
     color: white;
     text-align: center;
-    padding: 5% 0px;
+    padding: 28px 0px;
     margin: 1.5%;
     float: left;
     cursor: pointer;
     transition: 0.25s all ease-in-out;
     -moz-transition: 0.25s all ease-in-out;
     -webkit-transition: 0.25s all ease-in-out;
+    border-radius: 5px;
 }
 
 div.btn[data-type="operator"]
@@ -46,8 +47,8 @@ div.btn[data-type="symbol"] {
 }
 
 div.btn[data-type="equal"] {
-    background-color: #ce3078;
-    padding: 31.25% 0px;
+    background-color: #070707;
+    padding: 168px 0px;
     float: right;
 }
 
