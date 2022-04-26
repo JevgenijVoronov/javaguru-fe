@@ -1,3 +1,5 @@
+@import url(./animation.css);
+
 /* header, body and footer start*/
 body {
 	margin: 0;
@@ -58,7 +60,7 @@ nav {
 }
 .nav-link {
 	align-items: center;
-	justify-content:  center;
+	justify-content: center;
 	padding: 10px;
 }
 .nav-link > ul {
